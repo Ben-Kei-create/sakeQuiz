@@ -4,7 +4,7 @@
 
 - **今回の入力順**：App ID → アプリレコード → アプリ情報 → 価格と配信 → App Privacy → バージョン情報（スクリーンショット、説明、審査情報）→ ビルド → 提出
 - **対象**：iOS（iPhone専用）、日本語。Xcodeビルド形式：iOS App（Archive → App Store Connect）
-- **申請可否**：不可（公開ページ未公開、TestFlight未実施、実機確認未）
+- **申請可否**：不可（TestFlight未実施、実機確認未、アップロード未。公開ページは公開済み）
 - **本人操作の残件**：下の「入力保留」と「本人が手入力」の欄すべて
 
 ## モード判定
@@ -55,7 +55,7 @@ B：初回・App ID未登録の可能性あり。**ポータルで Bundle ID の
 | EU トレーダー | 本人の申告に従う（本人が管理画面で確認） |
 
 ## 5. App Privacy（提案。AdMob管理画面と実機を確認してから確定）
-- **プライバシーポリシーURL**：`https://www.givetex.org/apps/kuragoyomi/privacy/`（**未公開**。PRマージ後）
+- **プライバシーポリシーURL**：`https://www.givetex.org/apps/kuragoyomi/privacy/`（公開済み。2026-11-05に本番でHTTP 200を確認）
 - **トラッキング**：本アプリは、ATTの許可を求めず、広告のパーソナライズとPublisher First-Party IDを無効にし、非パーソナライズ広告を要求する（本人の方針：追跡なし）。
 - **通知**：端末の中だけで動くローカル通知。サーバーへは何も送らない（プッシュ通知ではない）。
 - **アプリ独自の収集**：なし（記録は端末内のみ。独自サーバー、アカウント、課金、分析SDKなし）。
@@ -113,8 +113,8 @@ B：初回・App ID未登録の可能性あり。**ポータルで Bundle ID の
 ### URL
 | 項目 | 値 |
 |---|---|
-| サポートURL | `https://www.givetex.org/apps/kuragoyomi/support/`（未公開） |
-| マーケティングURL | `https://www.givetex.org/apps/kuragoyomi/`（未公開） |
+| サポートURL | `https://www.givetex.org/apps/kuragoyomi/support/`（公開済み） |
+| マーケティングURL | `https://www.givetex.org/apps/kuragoyomi/`（公開済み） |
 
 ### 著作権
 書式：`© 2026 氏名. All rights reserved.`（【扱い】本人が手入力。氏名は本人が入れる）
@@ -145,7 +145,7 @@ B：初回・App ID未登録の可能性あり。**ポータルで Bundle ID の
 ## 入力保留・本人の残件
 | 項目 | 理由 | 完了条件 |
 |---|---|---|
-| 公開ページ3URL | GiveTeX PR #20 が未マージ | マージ後、本番で3URLが HTTP 200 |
+| 公開ページ3URL | 公開済み（2026-11-05確認） | — |
 | App Privacy の確定 | 同意の実機確認、AdMob管理画面の確認が未 | 確認後、画面で回答 |
 | 年齢制限・配信地域 | 画面の選択肢で確定 | 本人が回答 |
 | ビルド | Archive・アップロード未 | `archive_guide.md` |
