@@ -29,6 +29,9 @@ final class AdConsent {
 
     func resolve() async {
         guard phase == .notStarted else { return }
+        #if DEBUG
+        if ProcessInfo.processInfo.arguments.contains("-SCREENSHOT_MODE") { phase = .withheld; return }
+        #endif
         phase = .resolving
         let settings = MobileAds.shared.requestConfiguration
         settings.setPublisherFirstPartyIDEnabled(false)
