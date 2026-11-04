@@ -18,10 +18,10 @@
 - GitHubリポジトリURL: 自動確認
 - 作業ブランチ: 自動確認
 - ローカルXcodeプロジェクトの場所: 自動確認
-- Bundle ID: 自動確認
-- SKU: 自動確認
+- Bundle ID: com.fumiaki.kuragoyomi（確定。先にDeveloperポータルで登録してから、App Store Connectにレコードを作る）
+- SKU: kuragoyomi-ios-001（確定）
 - Apple ID(数値ID): 自動確認
-- Webページ用スラッグ: 提案
+- Webページ用スラッグ: kuragoyomi
 
 ## 収益化・データ・公開方針
 - 広告の有無:

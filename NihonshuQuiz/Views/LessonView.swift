@@ -102,7 +102,7 @@ struct LessonView: View {
                 .buttonStyle(PrimaryButtonStyle())
                 .padding(.horizontal, Theme.spacing.m)
                 .accessibilityIdentifier("back_to_book_button")
-            AdBannerBar()
+            BannerSlot()
         }
     }
 

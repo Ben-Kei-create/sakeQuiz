@@ -2,7 +2,7 @@
 
 日本酒を、一日ひとつ学ぶ、無料の独学の仕込み帳。SwiftUI製のiOSアプリ（iOS 17.0以降、iPhone専用）。約60日の「仕込み暦」で、1日1回、その日の工程の読み物と確認問題に取り組む。
 
-- 表示名：蔵ごよみ ／ プロジェクト・ターゲット名：`NihonshuQuiz`（内部名。画面には出ない） ／ Bundle ID：`com.fumiaki.kuragoyomi` ／ SKU案：`kuragoyomi-ios`
+- 表示名：蔵ごよみ ／ プロジェクト・ターゲット名：`NihonshuQuiz`（内部名。画面には出ない） ／ Bundle ID：`com.fumiaki.kuragoyomi` ／ SKU：`kuragoyomi-ios-001`
 - Team：7R927F3U4V、自動署名、版 1.0.0 (1)
 - ワイン版（同型のため4.3でリジェクト）とは別。コードは流用せず、新規に実装している（広告まわりを除く。下記）。
 
@@ -20,7 +20,7 @@
 出典は国税庁と日本酒造組合中央会の公開資料。確認記録：[Documentation/QUESTION_VERIFICATION.md](Documentation/QUESTION_VERIFICATION.md)、[sources.json](Documentation/sources.json)。新しい漢字を足したら `Tools/subset_fonts.sh` でフォントを作り直す（足りない文字は、テストが検出する）。
 
 ## 広告
-AdMobバナーのみ。**現在はテストID**（日本酒版のAdMobアプリID・広告ユニットIDは未発行）。非パーソナライズ、ATTなし、UMPで同意を取得。広告まわり（`AdsPrivacyController.swift`、`AdBannerView.swift`）は、ワイン版由来の標準的な実装が残っている。申請前に書き直す。
+AdMobバナーのみ。**現在はテストID**（日本酒版のAdMobアプリID・広告ユニットIDは未発行）。非パーソナライズ、ATTなし、UMPで同意を取得。広告まわり（`AdConsent.swift`、`BannerSlot.swift`）は、ワイン版から書き直した。ワイン版とのSwiftコードの一致率は約21％（`Tools/measure_overlap.py`）。
 
 お酒は二十歳になってから。
 

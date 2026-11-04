@@ -30,7 +30,7 @@ struct CalendarView: View {
         }
         .background(Theme.washi)
         .toolbar(.hidden, for: .navigationBar)
-        .safeAreaInset(edge: .bottom, spacing: 0) { AdBannerBar() }
+        .safeAreaInset(edge: .bottom, spacing: 0) { BannerSlot() }
         .fullScreenCover(item: $openLesson) { lesson in
             LessonView(library: library, lesson: lesson, readOnly: store.state.completions[lesson.day] != nil)
         }

@@ -3,7 +3,7 @@ import SwiftUI
 struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(AppModel.self) private var model
-    @Environment(AdsPrivacyController.self) private var adsPrivacy
+    @Environment(AdConsent.self) private var consent
     @AppStorage(Feedback.hapticsKey) private var haptics = true
     @State private var confirmReset = false
 
@@ -21,9 +21,9 @@ struct SettingsView: View {
                     Button("記録を消す", role: .destructive) { confirmReset = true }
                         .accessibilityIdentifier("reset_button")
                 }
-                if adsPrivacy.isPrivacyOptionsRequired {
+                if consent.offersChoices {
                     Section("広告") {
-                        Button("広告のプライバシー設定") { Task { await adsPrivacy.presentPrivacyOptions() } }
+                        Button("広告のプライバシー設定") { Task { await consent.reopenChoices() } }
                     }
                 }
                 Section("この帳面について") {
@@ -48,11 +48,11 @@ struct SettingsView: View {
                 Button("消す", role: .destructive) { model.store.reset() }
             }
             .alert("広告のプライバシー設定", isPresented: Binding(
-                get: { adsPrivacy.privacyOptionsError != nil },
-                set: { if !$0 { adsPrivacy.privacyOptionsError = nil } }
+                get: { consent.alertMessage != nil },
+                set: { if !$0 { consent.alertMessage = nil } }
             )) {
-                Button("閉じる") { adsPrivacy.privacyOptionsError = nil }
-            } message: { Text(adsPrivacy.privacyOptionsError ?? "") }
+                Button("閉じる") { consent.alertMessage = nil }
+            } message: { Text(consent.alertMessage ?? "") }
         }
     }
 }
