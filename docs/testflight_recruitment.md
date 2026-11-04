@@ -2,6 +2,8 @@
 
 条件を満たす人だけに頼む：iPhone（iOS 17以降）、**20歳以上**（お酒の内容を含むため）。見返りは出さない。意見は、実際に届いたものだけを記録する（`testflight_feedback.md`）。
 
+手順の全体は `docs/testflight_guide.md`（公開リンクの作り方、テスト情報の貼り付け文）。
+
 ## 事前に用意するもの
 - 公開リンク（App Store Connect → TestFlight → 外部テスト → 公開リンク。最初のビルドはベータ審査がある）。
 - 意見の窓口（Googleフォーム。質問は `testflight_form.md`。個人のメールアドレスは、載せない）。
