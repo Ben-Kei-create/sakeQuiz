@@ -8,6 +8,7 @@ struct LessonView: View {
 
     @Environment(\.dismiss) private var dismiss
     @Environment(AppModel.self) private var model
+    @Environment(ReminderCenter.self) private var reminder
     @State private var speaker = Speaker()
     @State private var phase: Phase = .reading
     @State private var stamped = false
@@ -50,13 +51,9 @@ struct LessonView: View {
     private var reading: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: Theme.spacing.l) {
-                Text(lesson.title)
-                    .font(.mincho(30, bold: true, relativeTo: .largeTitle))
+                RubyText(text: lesson.title, size: 30, bold: true, style: .largeTitle)
                     .accessibilityAddTraits(.isHeader)
-                Text(lesson.body)
-                    .font(.mincho(19, relativeTo: .body))
-                    .lineSpacing(8)
-                    .fixedSize(horizontal: false, vertical: true)
+                RubyText(text: lesson.body, size: 19)
                 Button { speaker.toggle("\(lesson.title)。\(lesson.body)") } label: {
                     Label(speaker.isSpeaking ? "読み上げを止める" : "読み上げる", systemImage: speaker.isSpeaking ? "stop.circle" : "speaker.wave.2")
                         .font(.mincho(15, relativeTo: .body))
@@ -89,7 +86,8 @@ struct LessonView: View {
     private var done: some View {
         VStack(spacing: Theme.spacing.l) {
             Spacer()
-            Seal(text: stamped ? "仕込済" : "仕込", size: 120)
+            Illustration(name: "illust_okeoke")
+            Seal(text: stamped ? "仕込済" : "仕込", size: Illustration.exists("illust_okeoke") ? 88 : 120)
             Text("本日の仕込み、終わり。")
                 .font(.mincho(24, bold: true, relativeTo: .title))
                 .foregroundStyle(Theme.sumi)
@@ -97,6 +95,7 @@ struct LessonView: View {
             Text("続けて \(model.store.streak(on: model.now)) 日")
                 .font(.mincho(17, relativeTo: .headline))
                 .foregroundStyle(Theme.sumi)
+            if reminder.shouldOffer(completedDays: model.store.completedCount) { reminderOffer }
             Spacer()
             Button { dismiss() } label: { Text("帳面へ戻る") }
                 .buttonStyle(PrimaryButtonStyle())
@@ -104,6 +103,28 @@ struct LessonView: View {
                 .accessibilityIdentifier("back_to_book_button")
             BannerSlot()
         }
+    }
+
+    /// 3日続けた人に、1回だけ。断っても、二度と頼まない。
+    private var reminderOffer: some View {
+        LinedPage {
+            VStack(alignment: .leading, spacing: Theme.spacing.s) {
+                Text("毎日の仕込みを、お知らせしましょうか。")
+                    .font(.mincho(17, bold: true, relativeTo: .headline))
+                Text("決めた時刻に、端末の中から、1日1回だけ知らせます。設定でいつでも止められます。")
+                    .font(.mincho(14, relativeTo: .footnote))
+                HStack(spacing: Theme.spacing.m) {
+                    Button("お知らせする") { Task { await reminder.enable(); await reminder.reschedule(store: model.store, now: model.now) } }
+                        .accessibilityIdentifier("reminder_yes")
+                    Button("いまは、いい") { reminder.declineOffer() }
+                        .accessibilityIdentifier("reminder_no")
+                }
+                .font(.mincho(16, bold: true, relativeTo: .body))
+                .foregroundStyle(Theme.shuText)
+            }
+            .foregroundStyle(Theme.sumi)
+        }
+        .padding(.horizontal, Theme.spacing.m)
     }
 
     private func record(_ question: QuizQuestion, _ correct: Bool) -> String? {

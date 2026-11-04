@@ -15,8 +15,12 @@ struct ReviewView: View {
                 .font(.mincho(34, bold: true, relativeTo: .largeTitle))
                 .accessibilityAddTraits(.isHeader)
             if due.isEmpty {
-                HStack(spacing: Theme.spacing.m) {
-                    Seal(text: "無", size: 52)
+                VStack(alignment: .leading, spacing: Theme.spacing.m) {
+                    if Illustration.exists("illust_sugidama") {
+                        Illustration(name: "illust_sugidama", height: 140)
+                    } else {
+                        Seal(text: "無", size: 52)
+                    }
                     Text(model.store.state.reviews.isEmpty ? "間違えた問いは、まだない。" : "本日の復習は、なし。")
                         .font(.mincho(17, bold: true, relativeTo: .headline))
                 }

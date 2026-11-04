@@ -69,3 +69,21 @@ struct LinedPage<Content: View>: View {
             .overlay { RoundedRectangle(cornerRadius: Theme.corner).stroke(Theme.sumi.opacity(0.35), lineWidth: 1) }
     }
 }
+
+/// 挿絵。画像が `Assets.xcassets` に入っていれば出し、なければ何も出さない（代わりの判などは、呼び出し側で置く）。
+struct Illustration: View {
+    let name: String
+    var height: CGFloat = 140
+
+    static func exists(_ name: String) -> Bool { UIImage(named: name) != nil }
+
+    var body: some View {
+        if Self.exists(name) {
+            Image(name)
+                .resizable()
+                .scaledToFit()
+                .frame(height: height)
+                .accessibilityHidden(true)
+        }
+    }
+}

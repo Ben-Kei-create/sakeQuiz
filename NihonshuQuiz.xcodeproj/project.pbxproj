@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BAD986DA42DAF9FF2074660 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098A4846266C2D9A34BFD9A0 /* ProgressStore.swift */; };
+		0BB89F825DB84F1791B23F96 /* RubyAnnotatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65543248657EA87A0325773A /* RubyAnnotatorTests.swift */; };
 		1C0485C074AEC38F8C76ECC7 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = E679D107168910323331F46A /* GoogleUserMessagingPlatform */; };
 		1D76EAFEE935A9980EE0FCEB /* ContentLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC19837F61F42C02A4B4C61 /* ContentLibrary.swift */; };
 		1F0B8C38136809885FE53D86 /* ShipporiMincho-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 118DFFC97F1D8E40F52A3B82 /* ShipporiMincho-Bold.ttf */; };
@@ -19,10 +20,13 @@
 		489709B5AB7A2B41BCF695A0 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3505996219B06A0FA6CFCB7E /* ReviewView.swift */; };
 		59DE62ECA402C119C7C929D7 /* FontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB0493B5CA3105C478334DB /* FontTests.swift */; };
 		5A63463FE5D289A0155CFF7F /* SealBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8E17BCB1C540CFB439BA6A /* SealBookView.swift */; };
+		5E83E285C7E93C4BE25AA9FD /* ruby.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E65EBFFFD2942C1E35A35DA /* ruby.json */; };
+		622086BE4BEDFB997DEFEAF3 /* ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE462E53465FB7D9ECE3FF18 /* ReminderTests.swift */; };
 		6AB9E1F8614B8129B4C3CBD5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E875B5E7694FC0AA88307C27 /* Category.swift */; };
 		6D6523DF72E6E9CD9F7B582E /* ProgressStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195471FAC60DC26A90A4234 /* ProgressStoreTests.swift */; };
 		6F78F380914240D6CEFA7FEB /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4901A8F46138D1D001C5BDA /* DayKey.swift */; };
 		76FC26F05AE06654658A309C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3390E0A6C0D5A4EAEDDCD387 /* Assets.xcassets */; };
+		78DB816FE9759F772660A69B /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4A43C71BC2336525A7D708 /* Reminder.swift */; };
 		7CF53F51C4A378DA263190CF /* AdConsentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2425B76C340C73B864316F /* AdConsentTests.swift */; };
 		96588A451B40888CF7A655D5 /* nihonshu_quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B30F2C6228854D2A68338 /* nihonshu_quiz.json */; };
 		9A309F1A8DB1885C9C4B5D9C /* NihonshuQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7253D6137A8F2CF999C9AF /* NihonshuQuizApp.swift */; };
@@ -36,6 +40,8 @@
 		C04D55E9BDB1CD8660F5FE2F /* BannerSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A880C37D437AF7C96353B17 /* BannerSlot.swift */; };
 		C1DA1D853F7EBC893B615FB8 /* lessons.json in Resources */ = {isa = PBXBuildFile; fileRef = A214C05DE8D22F159E2233A8 /* lessons.json */; };
 		C2FE14C51054B4D841545972 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126317DE64280CBD2ED7CE54 /* AppModel.swift */; };
+		C522885B25CEB8BC66B45E29 /* RubyAnnotator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A533726FADB16B7BABAA8C1 /* RubyAnnotator.swift */; };
+		CC52AE6C199431E64D6AA671 /* RubyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1042EC74AAD604279BE58D3E /* RubyText.swift */; };
 		CFB38EB79C89CCABAAE6A883 /* ContentLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AA35680D14DE02D1448970 /* ContentLibraryTests.swift */; };
 		D08EF724461FC58F123503A3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EFD40485B0FA1FEDDAE88A /* SettingsView.swift */; };
 		D37CAEFEF0A6F2B03B56A878 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75751073BB7EE3D39751667B /* CalendarView.swift */; };
@@ -69,6 +75,7 @@
 
 /* Begin PBXFileReference section */
 		098A4846266C2D9A34BFD9A0 /* ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
+		1042EC74AAD604279BE58D3E /* RubyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyText.swift; sourceTree = "<group>"; };
 		118DFFC97F1D8E40F52A3B82 /* ShipporiMincho-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShipporiMincho-Bold.ttf"; sourceTree = "<group>"; };
 		126317DE64280CBD2ED7CE54 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		170E408DC33007801E3541F4 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
@@ -85,12 +92,15 @@
 		5A4B30F2C6228854D2A68338 /* nihonshu_quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nihonshu_quiz.json; sourceTree = "<group>"; };
 		5E517BA468B5BB542B2FAA58 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
 		5F4330D3A032E40A1DD04FA5 /* SourceSerif4-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSerif4-Semibold.ttf"; sourceTree = "<group>"; };
+		65543248657EA87A0325773A /* RubyAnnotatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyAnnotatorTests.swift; sourceTree = "<group>"; };
 		66AA35680D14DE02D1448970 /* ContentLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLibraryTests.swift; sourceTree = "<group>"; };
+		6A533726FADB16B7BABAA8C1 /* RubyAnnotator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyAnnotator.swift; sourceTree = "<group>"; };
 		6FA8F84A4EEACDCA5BEDE261 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		75751073BB7EE3D39751667B /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		787E132AE59E2329E2C16D8A /* Speaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speaker.swift; sourceTree = "<group>"; };
 		78C1A469147B57577F05282E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7DB0493B5CA3105C478334DB /* FontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTests.swift; sourceTree = "<group>"; };
+		7E65EBFFFD2942C1E35A35DA /* ruby.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ruby.json; sourceTree = "<group>"; };
 		805DF654370B88E5188773FC /* NihonshuQuiz.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NihonshuQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CAE253C1C55E538DBF0800 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8A880C37D437AF7C96353B17 /* BannerSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerSlot.swift; sourceTree = "<group>"; };
@@ -101,6 +111,8 @@
 		B95FDD9D9DA1997021FFD94C /* QuestionFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFlowView.swift; sourceTree = "<group>"; };
 		B9937D840BDCF5B3D87A6A10 /* NihonshuQuizTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NihonshuQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA94F5C0AD83772E138AD2E9 /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		BE462E53465FB7D9ECE3FF18 /* ReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTests.swift; sourceTree = "<group>"; };
+		BE4A43C71BC2336525A7D708 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		C195471FAC60DC26A90A4234 /* ProgressStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStoreTests.swift; sourceTree = "<group>"; };
 		CF7DA1DD97E305142BF24A3B /* AdConsent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConsent.swift; sourceTree = "<group>"; };
 		D8EFD40485B0FA1FEDDAE88A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -150,6 +162,8 @@
 				46628481E1E142D56690C923 /* Feedback.swift */,
 				528495DD62165C403B2FAB61 /* ProgressState.swift */,
 				098A4846266C2D9A34BFD9A0 /* ProgressStore.swift */,
+				BE4A43C71BC2336525A7D708 /* Reminder.swift */,
+				6A533726FADB16B7BABAA8C1 /* RubyAnnotator.swift */,
 				787E132AE59E2329E2C16D8A /* Speaker.swift */,
 			);
 			name = Services;
@@ -162,6 +176,7 @@
 				A214C05DE8D22F159E2233A8 /* lessons.json */,
 				5A4B30F2C6228854D2A68338 /* nihonshu_quiz.json */,
 				6FA8F84A4EEACDCA5BEDE261 /* PrivacyInfo.xcprivacy */,
+				7E65EBFFFD2942C1E35A35DA /* ruby.json */,
 				E4519C54DE88E85F4EB87068 /* seals.json */,
 				6A503EE519173940704804E8 /* Fonts */,
 				9AD1EB718D48A48A75AA9542 /* Licenses */,
@@ -204,6 +219,8 @@
 				66AA35680D14DE02D1448970 /* ContentLibraryTests.swift */,
 				7DB0493B5CA3105C478334DB /* FontTests.swift */,
 				C195471FAC60DC26A90A4234 /* ProgressStoreTests.swift */,
+				BE462E53465FB7D9ECE3FF18 /* ReminderTests.swift */,
+				65543248657EA87A0325773A /* RubyAnnotatorTests.swift */,
 			);
 			path = NihonshuQuizTests;
 			sourceTree = "<group>";
@@ -238,6 +255,7 @@
 				B95FDD9D9DA1997021FFD94C /* QuestionFlowView.swift */,
 				3505996219B06A0FA6CFCB7E /* ReviewView.swift */,
 				78C1A469147B57577F05282E /* RootView.swift */,
+				1042EC74AAD604279BE58D3E /* RubyText.swift */,
 				8E8E17BCB1C540CFB439BA6A /* SealBookView.swift */,
 				D8EFD40485B0FA1FEDDAE88A /* SettingsView.swift */,
 				80CAE253C1C55E538DBF0800 /* Theme.swift */,
@@ -390,6 +408,7 @@
 				E510DAF52AA8AB28E4A6F638 /* SourceSerif4-Semibold.ttf in Resources */,
 				C1DA1D853F7EBC893B615FB8 /* lessons.json in Resources */,
 				96588A451B40888CF7A655D5 /* nihonshu_quiz.json in Resources */,
+				5E83E285C7E93C4BE25AA9FD /* ruby.json in Resources */,
 				BF8BA7945A22362D1A27139E /* seals.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +432,8 @@
 				CFB38EB79C89CCABAAE6A883 /* ContentLibraryTests.swift in Sources */,
 				59DE62ECA402C119C7C929D7 /* FontTests.swift in Sources */,
 				6D6523DF72E6E9CD9F7B582E /* ProgressStoreTests.swift in Sources */,
+				622086BE4BEDFB997DEFEAF3 /* ReminderTests.swift in Sources */,
+				0BB89F825DB84F1791B23F96 /* RubyAnnotatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +456,11 @@
 				0BAD986DA42DAF9FF2074660 /* ProgressStore.swift in Sources */,
 				B36AFADDD5CCB0310CB09FF7 /* QuestionFlowView.swift in Sources */,
 				271042F288B9C527D584CEA5 /* QuizQuestion.swift in Sources */,
+				78DB816FE9759F772660A69B /* Reminder.swift in Sources */,
 				489709B5AB7A2B41BCF695A0 /* ReviewView.swift in Sources */,
 				E290585A616DCBDECB99233D /* RootView.swift in Sources */,
+				C522885B25CEB8BC66B45E29 /* RubyAnnotator.swift in Sources */,
+				CC52AE6C199431E64D6AA671 /* RubyText.swift in Sources */,
 				5A63463FE5D289A0155CFF7F /* SealBookView.swift in Sources */,
 				F4E8AF93B5ECC641DC950C6F /* SealDefinition.swift in Sources */,
 				D08EF724461FC58F123503A3 /* SettingsView.swift in Sources */,

@@ -3,6 +3,7 @@ import SwiftUI
 struct RootView: View {
     @State private var model = AppModel()
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(ReminderCenter.self) private var reminder
 
     var body: some View {
         Group {
@@ -15,7 +16,13 @@ struct RootView: View {
             }
         }
         .onChange(of: scenePhase) { _, phase in
-            if phase == .active { model.refreshClock() }
+            if phase == .active {
+                model.refreshClock()
+                Task { await reminder.reschedule(store: model.store, now: model.now) }
+            }
+        }
+        .onChange(of: model.store.completedCount) { _, _ in
+            Task { await reminder.reschedule(store: model.store, now: model.now) }
         }
         .onReceive(Timer.publish(every: 60, on: .main, in: .common).autoconnect()) { _ in
             model.refreshClock()

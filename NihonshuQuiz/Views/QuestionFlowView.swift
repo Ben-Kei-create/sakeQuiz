@@ -25,10 +25,7 @@ struct QuestionFlowView: View {
                     Text("問 \(index + 1)／\(questions.count)")
                         .font(.mincho(14, relativeTo: .footnote))
                         .foregroundStyle(Theme.sumi.opacity(0.8))
-                    Text(question.question)
-                        .font(.mincho(21, bold: true, relativeTo: .title3))
-                        .foregroundStyle(Theme.sumi)
-                        .fixedSize(horizontal: false, vertical: true)
+                    RubyText(text: question.question, size: 21, bold: true, style: .title3)
                         .accessibilityAddTraits(.isHeader)
                     VStack(spacing: Theme.spacing.s) {
                         ForEach(question.choices.indices, id: \.self) { i in choiceRow(i) }
@@ -69,9 +66,7 @@ struct QuestionFlowView: View {
                 Text(numerals[i])
                     .font(.mincho(17, bold: true, relativeTo: .body))
                     .frame(width: 28)
-                Text(question.choices[i])
-                    .font(.mincho(17, relativeTo: .body))
-                    .multilineTextAlignment(.leading)
+                RubyText(text: question.choices[i], size: 17)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 if !mark.isEmpty {
                     Text(mark)
@@ -102,9 +97,7 @@ struct QuestionFlowView: View {
             VStack(alignment: .leading, spacing: Theme.spacing.s) {
                 Text(correct ? "正解" : "正解は、\(question.correctChoice)")
                     .font(.mincho(17, bold: true, relativeTo: .headline))
-                Text(question.trivia)
-                    .font(.mincho(16, relativeTo: .body))
-                    .fixedSize(horizontal: false, vertical: true)
+                RubyText(text: question.trivia, size: 16)
                 if let notice {
                     Text(notice)
                         .font(.mincho(15, bold: true, relativeTo: .callout))

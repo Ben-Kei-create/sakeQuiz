@@ -1,10 +1,13 @@
 import SwiftUI
+import UIKit
 
 struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
     @Environment(AppModel.self) private var model
     @Environment(AdConsent.self) private var consent
     @AppStorage(Feedback.hapticsKey) private var haptics = true
+    @AppStorage(Furigana.enabledKey) private var furigana = true
+    @Environment(ReminderCenter.self) private var reminder
     @State private var confirmReset = false
 
     private var version: String {
@@ -14,6 +17,10 @@ struct SettingsView: View {
     var body: some View {
         NavigationStack {
             List {
+                Section("読みやすさ") {
+                    Toggle("ふりがな", isOn: $furigana)
+                }
+                reminderSection
                 Section("手応え") {
                     Toggle("触覚", isOn: $haptics)
                 }
@@ -57,6 +64,43 @@ struct SettingsView: View {
     }
 }
 
+extension SettingsView {
+    @ViewBuilder
+    fileprivate var reminderSection: some View {
+        Section {
+            Toggle("毎日のお知らせ", isOn: Binding(
+                get: { reminder.isEnabled },
+                set: { on in
+                    Task {
+                        if on { await reminder.enable() } else { await reminder.disable() }
+                        await reminder.reschedule(store: model.store, now: model.now)
+                    }
+                }))
+                .accessibilityIdentifier("reminder_toggle")
+            if reminder.isEnabled {
+                DatePicker("時刻", selection: Binding(
+                    get: { Calendar.current.date(bySettingHour: reminder.hour, minute: reminder.minute, second: 0, of: .now) ?? .now },
+                    set: { d in
+                        let c = Calendar.current.dateComponents([.hour, .minute], from: d)
+                        reminder.setTime(hour: c.hour ?? 19, minute: c.minute ?? 0)
+                        Task { await reminder.reschedule(store: model.store, now: model.now) }
+                    }), displayedComponents: .hourAndMinute)
+            }
+            if reminder.authorization == .denied {
+                Text("端末の設定で、通知が許可されていません。")
+                    .font(.footnote)
+                Button("端末の設定を開く") {
+                    if let url = URL(string: UIApplication.openSettingsURLString) { UIApplication.shared.open(url) }
+                }
+            }
+        } header: {
+            Text("お知らせ")
+        } footer: {
+            Text("決めた時刻に、端末の中から、1日1回だけ知らせる。今日の仕込みを終えた日は、知らせない。")
+        }
+    }
+}
+
 struct PrivacyView: View {
     var body: some View {
         ScrollView {
@@ -67,6 +111,7 @@ struct PrivacyView: View {
                 Text("広告を取得する前に、Google User Messaging Platformで同意の状況を確かめ、必要な選択画面を出す。")
                 Link("公開のプライバシーポリシー", destination: URL(string: "https://www.givetex.org/apps/kuragoyomi/privacy/")!)
                 Link("Googleのプライバシーポリシー", destination: URL(string: "https://policies.google.com/privacy")!)
+                Text("毎日のお知らせは、端末の中だけで動くローカル通知で、サーバーへは何も送らない。許可は、設定から取り消せる。")
                 Text("読み上げは、端末の標準の音声を使う。出典のリンクは、外部のサイトを開く。")
             }
             .font(.mincho(16))
