@@ -15,7 +15,7 @@
 | 4.3への答え | TestFlightの実績（友人5人以上、意見と反映を `docs/testflight_feedback.md` に記録）。返信文は `docs/review_reply_draft.md` に、本人が確認して入力 |
 | ワイン版とのコード共有（質問7） | 広告まわりを書き直し済み（`AdConsent.swift`、`BannerSlot.swift`）。Swift 1,251行のうち、ワイン版と一致するのは約21％（`Tools/measure_overlap.py`。import・括弧・SwiftUIの標準的な修飾子・広告SDKの必須のAPI呼び出しなど、定型の行を含む）。ワイン版のレコードの削除は本人 |
 | 公開ページ | `https://www.givetex.org/apps/kuragoyomi/privacy/` は未公開。申請前に本番で公開 |
-| AdMob | 日本酒版のアプリ・広告ユニットIDの発行。確定後、実装前に確認して差し替え |
+| AdMob | IDは反映済み（Release：アプリ `…~4918623404`、バナー `…/6886486209`。Debugはテスト）。残り：AdMob管理画面で、メッセージ（同意）の公開と対象地域、app-ads.txt（開発者のWebサイトのドメイン）、アプリ公開後のストアとの紐づけ、必要な支払い情報を、本人が確認 |
 | 実機確認 | [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)。iOS 17は未確認（シミュレーターなし） |
 | アクセシビリティ | 実機のVoiceOver確認が済むまで宣言しない |
 | App Store Connect | 名前「蔵ごよみ」の使用可否を本人が確認。先にBundle IDを確定してからレコードを作る。年齢区分（飲酒関連）を申告 |

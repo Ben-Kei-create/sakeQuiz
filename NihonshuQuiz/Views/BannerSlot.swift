@@ -1,9 +1,16 @@
 import GoogleMobileAds
 import SwiftUI
 
-/// 広告ユニットのID。日本酒版（蔵ごよみ）のIDが発行されるまでは、Google公式のテストIDを使う。
+/// 広告ユニットのID。Debugは、Google公式のテストID。Releaseは、蔵ごよみ専用のバナー。
 enum AdUnit {
-    static let banner = "ca-app-pub-3940256099942544/2934735716"
+    static let testBanner = "ca-app-pub-3940256099942544/2934735716"
+    static let productionBanner = "ca-app-pub-4859622277330192/6886486209"
+
+    #if DEBUG
+    static let banner = testBanner
+    #else
+    static let banner = productionBanner
+    #endif
 }
 
 /// 画面の下に置くバナー。同意が得られていない間は、何も出さず、場所も取らない。

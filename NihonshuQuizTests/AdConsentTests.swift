@@ -10,8 +10,13 @@ final class AdConsentTests: XCTestCase {
         XCTAssertFalse(consent.offersChoices)
     }
 
-    func testBannerUsesGoogleTestUnitUntilOwnIDIsIssued() {
-        XCTAssertTrue(AdUnit.banner.hasPrefix("ca-app-pub-3940256099942544/"), "テストID以外が入っている")
-        XCTAssertFalse(AdUnit.banner.contains("4859622277330192"), "ワイン版のIDは使わない")
+    func testDebugBuildsUseGoogleTestUnit() {
+        XCTAssertTrue(AdUnit.banner.hasPrefix("ca-app-pub-3940256099942544/"), "Debugはテストを使う")
+    }
+
+    func testProductionUnitIsNotTheWineAppsUnit() {
+        let wineUnit = "ca-app-pub-4859622277330192/3016344791"
+        XCTAssertNotEqual(AdUnit.productionBanner, wineUnit, "ワイン版の広告ユニットは使わない")
+        XCTAssertTrue(AdUnit.productionBanner.hasPrefix("ca-app-pub-4859622277330192/"))
     }
 }

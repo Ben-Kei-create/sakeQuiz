@@ -33,10 +33,11 @@ targets:
     settings:
       configs:
         Debug:
-          # Google公式テストアプリID。日本酒版のAdMobアプリID発行後に差し替える（Releaseも同様）。
+          # Debugは、Google公式のテストアプリID。
           ADMOB_APP_ID: ca-app-pub-3940256099942544~1458002511
         Release:
-          ADMOB_APP_ID: ca-app-pub-3940256099942544~1458002511
+          # 蔵ごよみ専用（AdMobのアプリ名：kuragoyomi_bar）。ワイン版のIDではない。
+          ADMOB_APP_ID: ca-app-pub-4859622277330192~4918623404
       base:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         INFOPLIST_FILE: NihonshuQuiz/Info.plist

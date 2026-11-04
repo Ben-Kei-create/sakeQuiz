@@ -20,7 +20,7 @@
 出典は国税庁と日本酒造組合中央会の公開資料。確認記録：[Documentation/QUESTION_VERIFICATION.md](Documentation/QUESTION_VERIFICATION.md)、[sources.json](Documentation/sources.json)。新しい漢字を足したら `Tools/subset_fonts.sh` でフォントを作り直す（足りない文字は、テストが検出する）。
 
 ## 広告
-AdMobバナーのみ。**現在はテストID**（日本酒版のAdMobアプリID・広告ユニットIDは未発行）。非パーソナライズ、ATTなし、UMPで同意を取得。広告まわり（`AdConsent.swift`、`BannerSlot.swift`）は、ワイン版から書き直した。ワイン版とのSwiftコードの一致率は約21％（`Tools/measure_overlap.py`）。
+AdMobバナーのみ。Debugは、Google公式のテストID。Releaseは、蔵ごよみ専用のID（AdMobのアプリ名 `kuragoyomi_bar`）。ワイン版のIDは使わない。非パーソナライズ、ATTなし、UMPで同意を取得。広告まわり（`AdConsent.swift`、`BannerSlot.swift`）は、ワイン版から書き直した。ワイン版とのSwiftコードの一致率は約21％（`Tools/measure_overlap.py`）。
 
 お酒は二十歳になってから。
 

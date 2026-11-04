@@ -647,7 +647,7 @@
 		A9D87316A481F60656453948 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ADMOB_APP_ID = "ca-app-pub-3940256099942544~1458002511";
+				ADMOB_APP_ID = "ca-app-pub-4859622277330192~4918623404";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NihonshuQuiz/Info.plist;
