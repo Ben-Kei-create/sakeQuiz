@@ -31,6 +31,7 @@ DIFF = {"E": ("Easy", "初級"), "M": ("Medium", "中級"), "H": ("Hard", "上�
 CATNAME = {"rice": "米と酒米", "grade": "精米歩合と特定名称", "brewing": "醸造工程", "yeastWater": "酵母と水",
            "region": "産地と酒蔵の文化", "taste": "味わい・温度・酒器", "pairing": "ペアリング", "historyLabel": "歴史・表示・保存"}
 
+# 並びは追記のみ（IDは並び順から付くため、入れ替えない）
 rows = Q1 + Q2 + Q3 + Q4 + Q5
 out, seen = [], set()
 for i, (q, ans, wrong, trivia, d, cat, src) in enumerate(rows):
@@ -41,7 +42,7 @@ for i, (q, ans, wrong, trivia, d, cat, src) in enumerate(rows):
     pos = i % 4
     choices = wrong[:pos] + [ans] + wrong[pos:]
     title, url = SOURCES[src]
-    out.append({"question": q, "choices": choices, "correctAnswerIndex": pos, "trivia": trivia,
+    out.append({"id": f"q{i+1:03d}", "question": q, "choices": choices, "correctAnswerIndex": pos, "trivia": trivia,
                 "difficulty": DIFF[d][0], "category": cat, "sourceTitle": title, "sourceURL": url, "checkedOn": CHECKED})
 
 root = os.path.dirname(here)

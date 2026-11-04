@@ -7,8 +7,8 @@ struct NihonshuQuizApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .tint(NihonshuTheme.indigo)
+            RootView()
+                .tint(Theme.shu)
                 .preferredColorScheme(.light)
                 .environment(adsPrivacy)
                 .task { await adsPrivacy.prepare() }

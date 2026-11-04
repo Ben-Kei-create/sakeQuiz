@@ -2,102 +2,99 @@ import SwiftUI
 
 struct SettingsView: View {
     @Environment(\.dismiss) private var dismiss
-    @Environment(GameStore.self) private var store
+    @Environment(AppModel.self) private var model
     @Environment(AdsPrivacyController.self) private var adsPrivacy
+    @AppStorage(Feedback.hapticsKey) private var haptics = true
+    @State private var confirmReset = false
 
-    @AppStorage(SoundPlayer.soundEnabledKey) private var soundEnabled = true
-    @AppStorage(SoundPlayer.hapticsEnabledKey) private var hapticsEnabled = true
-    @AppStorage(QuizTimer.disabledKey) private var timerDisabled = false
-    @State private var showResetConfirmation = false
-
-    private var versionText: String {
+    private var version: String {
         Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "-"
     }
 
     var body: some View {
         NavigationStack {
-            Form {
-                Section("サウンド") {
-                    Toggle("効果音", isOn: $soundEnabled)
-                    Toggle("触覚フィードバック", isOn: $hapticsEnabled)
+            List {
+                Section("手応え") {
+                    Toggle("触覚", isOn: $haptics)
                 }
-
-                Section {
-                    Toggle("制限時間をなくす", isOn: $timerDisabled)
-                } header: {
-                    Text("クイズ")
-                } footer: {
-                    Text("オンにすると、時間切れなしで考えられます。")
+                Section("記録") {
+                    Button("記録を消す", role: .destructive) { confirmReset = true }
+                        .accessibilityIdentifier("reset_button")
                 }
-
-                Section("成績") {
-                    Button("成績をリセット", role: .destructive) {
-                        showResetConfirmation = true
-                    }
-                }
-
                 if adsPrivacy.isPrivacyOptionsRequired {
-                    Section("プライバシー") {
-                        Button("広告のプライバシー設定") {
-                            Task { await adsPrivacy.presentPrivacyOptions() }
-                        }
+                    Section("広告") {
+                        Button("広告のプライバシー設定") { Task { await adsPrivacy.presentPrivacyOptions() } }
                     }
                 }
-                Section("アプリについて") {
-                    LabeledContent("バージョン", value: versionText)
+                Section("この帳面について") {
+                    LabeledContent("版", value: version)
                         .accessibilityElement(children: .ignore)
-                        .accessibilityLabel("バージョン")
-                        .accessibilityValue(versionText)
+                        .accessibilityLabel("版")
+                        .accessibilityValue(version)
                         .accessibilityIdentifier("app_version")
-                    NavigationLink("プライバシーポリシー") { PrivacyView() }
-                    Text("お酒は20歳になってから。飲酒運転は法律で禁止されています。")
-                        .font(.caption)
-
+                    NavigationLink("プライバシー") { PrivacyView() }
+                    NavigationLink("ライセンス") { LicensesView() }
+                    Text("お酒は二十歳になってから。飲酒運転は法律で禁じられている。")
+                        .font(.footnote)
                 }
             }
+            .font(.mincho(16))
+            .scrollContentBackground(.hidden)
+            .background(Theme.washi)
             .navigationTitle("設定")
             .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .confirmationAction) {
-                    Button("完了") { dismiss() }
-                }
+            .toolbar { ToolbarItem(placement: .confirmationAction) { Button("閉じる") { dismiss() } } }
+            .confirmationDialog("仕込みの記録、復習、印を、すべて消します。", isPresented: $confirmReset, titleVisibility: .visible) {
+                Button("消す", role: .destructive) { model.store.reset() }
             }
             .alert("広告のプライバシー設定", isPresented: Binding(
                 get: { adsPrivacy.privacyOptionsError != nil },
                 set: { if !$0 { adsPrivacy.privacyOptionsError = nil } }
             )) {
                 Button("閉じる") { adsPrivacy.privacyOptionsError = nil }
-            } message: {
-                Text(adsPrivacy.privacyOptionsError ?? "")
-            }
-            .confirmationDialog("ハイスコア・累計成績・分野別の正答率・間違えた回数・連続正解・復習リスト・今日の挑戦状況を消去します。", isPresented: $showResetConfirmation, titleVisibility: .visible) {
-                Button("リセットする", role: .destructive) {
-                    store.resetStats()
-                }
-            }
+            } message: { Text(adsPrivacy.privacyOptionsError ?? "") }
         }
     }
-}
-
-#Preview {
-    SettingsView()
-        .environment(GameStore())
-        .environment(AdsPrivacyController())
 }
 
 struct PrivacyView: View {
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                Text("日本酒雑学クイズ").font(.title2.bold())
-                Text("成績・分野別の正答率・間違えた回数・復習対象・今日の挑戦状況・効果音と触覚の設定は端末内に保存します。アプリ独自のサーバーへの送信やアカウント登録はありません。成績は設定からリセットできます。")
-                Text("広告にはGoogle Mobile Ads SDKを利用しています。広告のパーソナライズを無効にし、非パーソナライズ広告を要求します。広告用の追跡許可（ATT）は要求しません。SDKは広告の取得や不正防止のため、IPアドレス、端末情報、診断情報などをGoogleへ送信することがあります。")
-                Text("広告の取得前にGoogle User Messaging Platformで同意状況を確認し、必要な選択画面を表示します。選択の変更が必要な場合は、設定の「広告のプライバシー設定」から行えます。")
-                Link("公開プライバシーポリシー", destination: URL(string: "https://www.givetex.org/apps/nihonshuquiz/privacy/")!)
+            VStack(alignment: .leading, spacing: Theme.spacing.m) {
+                Text("プライバシー").font(.mincho(24, bold: true, relativeTo: .title2))
+                Text("仕込みの記録、復習、印、触覚の設定は、この端末の中にだけ保存する。独自のサーバーへの送信や、登録は、ない。記録は、設定から消せる。")
+                Text("広告には、Google Mobile Ads SDKを使う。広告のパーソナライズは無効で、広告用の追跡許可は求めない。SDKは、広告の取得や不正の防止のため、IPアドレスや端末の情報などをGoogleへ送ることがある。")
+                Text("広告を取得する前に、Google User Messaging Platformで同意の状況を確かめ、必要な選択画面を出す。")
+                Link("公開のプライバシーポリシー", destination: URL(string: "https://www.givetex.org/apps/kuragoyomi/privacy/")!)
                 Link("Googleのプライバシーポリシー", destination: URL(string: "https://policies.google.com/privacy")!)
-                Text("結果のシェアは操作したときだけ共有画面を開きます。送信先と送信内容は共有画面で選択できます。出典リンクは外部サイトを開きます。")
-                Text("最終更新：2026年11月3日").font(.caption)
-            }.padding(24)
-        }.navigationTitle("プライバシー").navigationBarTitleDisplayMode(.inline)
+                Text("読み上げは、端末の標準の音声を使う。出典のリンクは、外部のサイトを開く。")
+            }
+            .font(.mincho(16))
+            .foregroundStyle(Theme.sumi)
+            .padding(Theme.spacing.m)
+        }
+        .background(Theme.washi)
+        .navigationTitle("プライバシー")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+}
+
+struct LicensesView: View {
+    private let files = [("Shippori Mincho", "ShipporiMincho-OFL"), ("Source Serif 4", "SourceSerif4-OFL")]
+
+    var body: some View {
+        List {
+            ForEach(files, id: \.1) { name, file in
+                Section(name) {
+                    Text(text(file)).font(.system(size: 12, design: .monospaced))
+                }
+            }
+        }
+        .navigationTitle("ライセンス")
+        .navigationBarTitleDisplayMode(.inline)
+    }
+
+    private func text(_ file: String) -> String {
+        Bundle.main.url(forResource: file, withExtension: "txt").flatMap { try? String(contentsOf: $0, encoding: .utf8) } ?? "ライセンス文を読み込めません。"
     }
 }

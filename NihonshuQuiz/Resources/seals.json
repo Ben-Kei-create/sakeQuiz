@@ -1,0 +1,58 @@
+[
+  {
+    "id": "hakusan",
+    "name": "白山",
+    "place": "石川県白山市",
+    "note": "清酒で最初のGI（2005年）",
+    "questionID": "q113"
+  },
+  {
+    "id": "nihonshu",
+    "name": "日本酒",
+    "place": "日本国",
+    "note": "国産米を使い、国内で製造した清酒（2015年）",
+    "questionID": "q114"
+  },
+  {
+    "id": "nada",
+    "name": "灘五郷",
+    "place": "兵庫県神戸市・芦屋市・西宮市",
+    "note": "2018年指定",
+    "questionID": "q112"
+  },
+  {
+    "id": "harima",
+    "name": "はりま",
+    "place": "兵庫県播磨地域",
+    "note": "兵庫県産山田錦で醸す",
+    "questionID": "q229"
+  },
+  {
+    "id": "mie",
+    "name": "三重",
+    "place": "三重県",
+    "note": "2020年指定",
+    "questionID": "q116"
+  },
+  {
+    "id": "niigata",
+    "name": "新潟",
+    "place": "新潟県",
+    "note": "2022年指定",
+    "questionID": "q115"
+  },
+  {
+    "id": "iwate",
+    "name": "岩手",
+    "place": "岩手県",
+    "note": "南部杜氏の技術",
+    "questionID": "q230"
+  },
+  {
+    "id": "itami",
+    "name": "伊丹",
+    "place": "兵庫県伊丹市",
+    "note": "2024年指定",
+    "questionID": "q117"
+  }
+]

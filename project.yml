@@ -40,7 +40,7 @@ targets:
       base:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         INFOPLIST_FILE: NihonshuQuiz/Info.plist
-        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.nihonshuQuiz
+        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.kuragoyomi
         PRODUCT_MODULE_NAME: NihonshuQuiz
         PRODUCT_NAME: NihonshuQuiz
         TARGETED_DEVICE_FAMILY: "1"
@@ -66,7 +66,7 @@ targets:
       base:
         BUNDLE_LOADER: "$(TEST_HOST)"
         GENERATE_INFOPLIST_FILE: YES
-        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.nihonshuQuiz.tests
+        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.kuragoyomi.tests
         PRODUCT_NAME: NihonshuQuizTests
         TEST_HOST: "$(BUILT_PRODUCTS_DIR)/NihonshuQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NihonshuQuiz"
   NihonshuQuizUITests:
@@ -80,7 +80,7 @@ targets:
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES
-        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.nihonshuQuiz.uitests
+        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.kuragoyomi.uitests
         TEST_TARGET_NAME: NihonshuQuiz
 schemes:
   NihonshuQuiz:
