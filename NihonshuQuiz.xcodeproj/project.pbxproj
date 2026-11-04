@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075C047B95F39DF14639DDB0 /* QuestionStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5727A40A32EC6805D0A96 /* QuestionStats.swift */; };
+		12C7108D83B0F5BE0EF3E28C /* QuizTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D356D9E3E66B524478ACF /* QuizTimer.swift */; };
+		1C0485C074AEC38F8C76ECC7 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = E679D107168910323331F46A /* GoogleUserMessagingPlatform */; };
+		271042F288B9C527D584CEA5 /* QuizQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170E408DC33007801E3541F4 /* QuizQuestion.swift */; };
+		2886E85583C490285EFC3E1B /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88331F808D71EAC3B6BA671A /* SoundPlayer.swift */; };
+		298B08FD58EDB9A9E91F6B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F48F7E90C048CE5E45C187 /* ContentView.swift */; };
+		313EE811EF4547F1FB915414 /* NihonshuTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812D49C3B5AFEBAD249C3F6 /* NihonshuTheme.swift */; };
+		353CFC9DEE08FAB5D7443D89 /* QuestionRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3962403952D96C64858401D /* QuestionRepositoryTests.swift */; };
+		476C01152726A6685DCB9FAE /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E49485887B5E2B5CE27382 /* QuizView.swift */; };
+		55B8F5616B90A82F591A2F67 /* NihonshuQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF81E1472A9077D84345329 /* NihonshuQuizUITests.swift */; };
+		68D9665DB844AEA22F2C581D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D5676E1A1241FAC8421BA /* SplashView.swift */; };
+		69A51DAC2FF41619D360811D /* AdsPrivacyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F644B6371B913A977EDF3F34 /* AdsPrivacyController.swift */; };
+		6AB9E1F8614B8129B4C3CBD5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E875B5E7694FC0AA88307C27 /* Category.swift */; };
+		7435670AB59FE3700364C48A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400F401C02FA32F60CC04DED /* ResultView.swift */; };
+		76FC26F05AE06654658A309C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3390E0A6C0D5A4EAEDDCD387 /* Assets.xcassets */; };
+		7E23EEA5867B5066BECBBF43 /* GameStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DAAE93A9DD12CC81F3E25F /* GameStoreTests.swift */; };
+		821E9DAF89FDCC8D87BCB24F /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89BF4E8DBDC4BC30F8143A /* GameStore.swift */; };
+		876E6504B3E415D629C124A0 /* QuizSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880B0DFA4AF8AAA52E051513 /* QuizSession.swift */; };
+		96588A451B40888CF7A655D5 /* nihonshu_quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A4B30F2C6228854D2A68338 /* nihonshu_quiz.json */; };
+		9A309F1A8DB1885C9C4B5D9C /* NihonshuQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7253D6137A8F2CF999C9AF /* NihonshuQuizApp.swift */; };
+		9CFABC13C0D460A72A4E7FE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9FBC95387C37F2612ADD05 /* HomeView.swift */; };
+		B0CCA3B3BFFD1FEAEE249A7E /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F4B4EF6A21452F11ED8352 /* UnavailableView.swift */; };
+		BC9176DFC866C89B31E29E09 /* AnswerRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788FC51BA8176BDD7D97955 /* AnswerRecord.swift */; };
+		BE75A047C7ED6E1C24C4C935 /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A944BCC3B7EAFD29CDDE5424 /* Difficulty.swift */; };
+		C14C0E960254E4D83740448A /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC3761F7E82AE69F525F3A /* CategoryListView.swift */; };
+		CA80DEF4A5C91C65307AC801 /* QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76DA751503FA917D4A32088 /* QuestionRepository.swift */; };
+		D08EF724461FC58F123503A3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EFD40485B0FA1FEDDAE88A /* SettingsView.swift */; };
+		F20E26FC0AA57CD4EB4ED75E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6FA8F84A4EEACDCA5BEDE261 /* PrivacyInfo.xcprivacy */; };
+		F3F892CCEF6C5B25EEA9D91E /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CE06206237565C4CFE286 /* AdBannerView.swift */; };
+		F67DFAF00FFDD1303BBB7D02 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 2D20DB1610EBAE004CCD4369 /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		263FF63A26F06C723BF474BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEAFD802E8C99EF45227F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC693F82F6994593647EF387;
+			remoteInfo = NihonshuQuiz;
+		};
+		2B246024C5E829382B8F00D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEAFD802E8C99EF45227F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC693F82F6994593647EF387;
+			remoteInfo = NihonshuQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07E49485887B5E2B5CE27382 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		170E408DC33007801E3541F4 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
+		191AEDD598E882A9F209A8D2 /* NihonshuQuizUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NihonshuQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD5727A40A32EC6805D0A96 /* QuestionStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStats.swift; sourceTree = "<group>"; };
+		1D7253D6137A8F2CF999C9AF /* NihonshuQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonshuQuizApp.swift; sourceTree = "<group>"; };
+		3390E0A6C0D5A4EAEDDCD387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		400F401C02FA32F60CC04DED /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		43F48F7E90C048CE5E45C187 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A9D5676E1A1241FAC8421BA /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		4DF81E1472A9077D84345329 /* NihonshuQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonshuQuizUITests.swift; sourceTree = "<group>"; };
+		576D356D9E3E66B524478ACF /* QuizTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTimer.swift; sourceTree = "<group>"; };
+		5A4B30F2C6228854D2A68338 /* nihonshu_quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nihonshu_quiz.json; sourceTree = "<group>"; };
+		6B9FBC95387C37F2612ADD05 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6FA8F84A4EEACDCA5BEDE261 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		70DAAE93A9DD12CC81F3E25F /* GameStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStoreTests.swift; sourceTree = "<group>"; };
+		805DF654370B88E5188773FC /* NihonshuQuiz.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NihonshuQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880B0DFA4AF8AAA52E051513 /* QuizSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSession.swift; sourceTree = "<group>"; };
+		8812D49C3B5AFEBAD249C3F6 /* NihonshuTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NihonshuTheme.swift; sourceTree = "<group>"; };
+		88331F808D71EAC3B6BA671A /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		9788FC51BA8176BDD7D97955 /* AnswerRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRecord.swift; sourceTree = "<group>"; };
+		A944BCC3B7EAFD29CDDE5424 /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
+		ABEC3761F7E82AE69F525F3A /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		B9937D840BDCF5B3D87A6A10 /* NihonshuQuizTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = NihonshuQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76DA751503FA917D4A32088 /* QuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRepository.swift; sourceTree = "<group>"; };
+		D8EFD40485B0FA1FEDDAE88A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E15CE06206237565C4CFE286 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
+		E3962403952D96C64858401D /* QuestionRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRepositoryTests.swift; sourceTree = "<group>"; };
+		E875B5E7694FC0AA88307C27 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		EF89BF4E8DBDC4BC30F8143A /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		F5F4B4EF6A21452F11ED8352 /* UnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableView.swift; sourceTree = "<group>"; };
+		F644B6371B913A977EDF3F34 /* AdsPrivacyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsPrivacyController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F83A28CEC476CFDA0F062A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67DFAF00FFDD1303BBB7D02 /* GoogleMobileAds in Frameworks */,
+				1C0485C074AEC38F8C76ECC7 /* GoogleUserMessagingPlatform in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211A0DEE56963AAFAE6A09E9 = {
+			isa = PBXGroup;
+			children = (
+				E6F916346089E69B67447292 /* App */,
+				B57B55F3007B3DB41AD808B4 /* Models */,
+				435DE421F63DD01B5192223D /* NihonshuQuiz */,
+				7B2A8FD2F360E06628EC1D56 /* NihonshuQuizTests */,
+				3ED093CB0A44E9F7474B7C62 /* NihonshuQuizUITests */,
+				3D1413BADEB49E4ED16850A2 /* Resources */,
+				336680AF496F7BE6220A09B7 /* Services */,
+				BF0F90CE0DD966348EC198BD /* Views */,
+				F1E6C994FB53F3B9D7E1F6EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336680AF496F7BE6220A09B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F644B6371B913A977EDF3F34 /* AdsPrivacyController.swift */,
+				EF89BF4E8DBDC4BC30F8143A /* GameStore.swift */,
+				C76DA751503FA917D4A32088 /* QuestionRepository.swift */,
+				1CD5727A40A32EC6805D0A96 /* QuestionStats.swift */,
+				576D356D9E3E66B524478ACF /* QuizTimer.swift */,
+				88331F808D71EAC3B6BA671A /* SoundPlayer.swift */,
+			);
+			name = Services;
+			path = NihonshuQuiz/Services;
+			sourceTree = "<group>";
+		};
+		3D1413BADEB49E4ED16850A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A4B30F2C6228854D2A68338 /* nihonshu_quiz.json */,
+				6FA8F84A4EEACDCA5BEDE261 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			path = NihonshuQuiz/Resources;
+			sourceTree = "<group>";
+		};
+		3ED093CB0A44E9F7474B7C62 /* NihonshuQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF81E1472A9077D84345329 /* NihonshuQuizUITests.swift */,
+			);
+			path = NihonshuQuizUITests;
+			sourceTree = "<group>";
+		};
+		435DE421F63DD01B5192223D /* NihonshuQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				3390E0A6C0D5A4EAEDDCD387 /* Assets.xcassets */,
+			);
+			path = NihonshuQuiz;
+			sourceTree = "<group>";
+		};
+		7B2A8FD2F360E06628EC1D56 /* NihonshuQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				70DAAE93A9DD12CC81F3E25F /* GameStoreTests.swift */,
+				E3962403952D96C64858401D /* QuestionRepositoryTests.swift */,
+			);
+			path = NihonshuQuizTests;
+			sourceTree = "<group>";
+		};
+		B57B55F3007B3DB41AD808B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9788FC51BA8176BDD7D97955 /* AnswerRecord.swift */,
+				E875B5E7694FC0AA88307C27 /* Category.swift */,
+				A944BCC3B7EAFD29CDDE5424 /* Difficulty.swift */,
+				170E408DC33007801E3541F4 /* QuizQuestion.swift */,
+				880B0DFA4AF8AAA52E051513 /* QuizSession.swift */,
+			);
+			name = Models;
+			path = NihonshuQuiz/Models;
+			sourceTree = "<group>";
+		};
+		BF0F90CE0DD966348EC198BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E15CE06206237565C4CFE286 /* AdBannerView.swift */,
+				ABEC3761F7E82AE69F525F3A /* CategoryListView.swift */,
+				43F48F7E90C048CE5E45C187 /* ContentView.swift */,
+				6B9FBC95387C37F2612ADD05 /* HomeView.swift */,
+				8812D49C3B5AFEBAD249C3F6 /* NihonshuTheme.swift */,
+				07E49485887B5E2B5CE27382 /* QuizView.swift */,
+				400F401C02FA32F60CC04DED /* ResultView.swift */,
+				D8EFD40485B0FA1FEDDAE88A /* SettingsView.swift */,
+				4A9D5676E1A1241FAC8421BA /* SplashView.swift */,
+				F5F4B4EF6A21452F11ED8352 /* UnavailableView.swift */,
+			);
+			name = Views;
+			path = NihonshuQuiz/Views;
+			sourceTree = "<group>";
+		};
+		E6F916346089E69B67447292 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1D7253D6137A8F2CF999C9AF /* NihonshuQuizApp.swift */,
+			);
+			name = App;
+			path = NihonshuQuiz/App;
+			sourceTree = "<group>";
+		};
+		F1E6C994FB53F3B9D7E1F6EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				805DF654370B88E5188773FC /* NihonshuQuiz.app */,
+				B9937D840BDCF5B3D87A6A10 /* NihonshuQuizTests.xctest */,
+				191AEDD598E882A9F209A8D2 /* NihonshuQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D3B941064C42D3763A245F /* NihonshuQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D75EAEBFE7124E37FFCD33ED /* Build configuration list for PBXNativeTarget "NihonshuQuizUITests" */;
+			buildPhases = (
+				680D4638FC25B01F3126F464 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5D9B7DB9D9D0210AE3BB04A /* PBXTargetDependency */,
+			);
+			name = NihonshuQuizUITests;
+			packageProductDependencies = (
+			);
+			productName = NihonshuQuizUITests;
+			productReference = 191AEDD598E882A9F209A8D2 /* NihonshuQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		955A71FC059AF5623F4617FD /* NihonshuQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93158A42D34C6EC189D05E8 /* Build configuration list for PBXNativeTarget "NihonshuQuizTests" */;
+			buildPhases = (
+				6BF21CCCDCEEC31B94B3E2BA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2191BF3F2C50857B90E2EB23 /* PBXTargetDependency */,
+			);
+			name = NihonshuQuizTests;
+			packageProductDependencies = (
+			);
+			productName = NihonshuQuizTests;
+			productReference = B9937D840BDCF5B3D87A6A10 /* NihonshuQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC693F82F6994593647EF387 /* NihonshuQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC925C96352B425DD9D6477D /* Build configuration list for PBXNativeTarget "NihonshuQuiz" */;
+			buildPhases = (
+				B89B82994F747A5BB6ABDD72 /* Sources */,
+				B40A0919218C410BA08D207B /* Resources */,
+				D6F83A28CEC476CFDA0F062A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NihonshuQuiz;
+			packageProductDependencies = (
+				2D20DB1610EBAE004CCD4369 /* GoogleMobileAds */,
+				E679D107168910323331F46A /* GoogleUserMessagingPlatform */,
+			);
+			productName = NihonshuQuiz;
+			productReference = 805DF654370B88E5188773FC /* NihonshuQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CEAFD802E8C99EF45227F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					69D3B941064C42D3763A245F = {
+						DevelopmentTeam = 7R927F3U4V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC693F82F6994593647EF387;
+					};
+					955A71FC059AF5623F4617FD = {
+						DevelopmentTeam = 7R927F3U4V;
+						ProvisioningStyle = Automatic;
+					};
+					CC693F82F6994593647EF387 = {
+						DevelopmentTeam = 7R927F3U4V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 80BD69AC0EFD763D1F3CADE6 /* Build configuration list for PBXProject "NihonshuQuiz" */;
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ja,
+			);
+			mainGroup = 211A0DEE56963AAFAE6A09E9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CF3F4CAC5D2E3B8C21142211 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				7F15E0FFB9E5144E4B7C3B5F /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F1E6C994FB53F3B9D7E1F6EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC693F82F6994593647EF387 /* NihonshuQuiz */,
+				955A71FC059AF5623F4617FD /* NihonshuQuizTests */,
+				69D3B941064C42D3763A245F /* NihonshuQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B40A0919218C410BA08D207B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FC26F05AE06654658A309C /* Assets.xcassets in Resources */,
+				F20E26FC0AA57CD4EB4ED75E /* PrivacyInfo.xcprivacy in Resources */,
+				96588A451B40888CF7A655D5 /* nihonshu_quiz.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680D4638FC25B01F3126F464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B8F5616B90A82F591A2F67 /* NihonshuQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF21CCCDCEEC31B94B3E2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E23EEA5867B5066BECBBF43 /* GameStoreTests.swift in Sources */,
+				353CFC9DEE08FAB5D7443D89 /* QuestionRepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89B82994F747A5BB6ABDD72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F892CCEF6C5B25EEA9D91E /* AdBannerView.swift in Sources */,
+				69A51DAC2FF41619D360811D /* AdsPrivacyController.swift in Sources */,
+				BC9176DFC866C89B31E29E09 /* AnswerRecord.swift in Sources */,
+				6AB9E1F8614B8129B4C3CBD5 /* Category.swift in Sources */,
+				C14C0E960254E4D83740448A /* CategoryListView.swift in Sources */,
+				298B08FD58EDB9A9E91F6B8B /* ContentView.swift in Sources */,
+				BE75A047C7ED6E1C24C4C935 /* Difficulty.swift in Sources */,
+				821E9DAF89FDCC8D87BCB24F /* GameStore.swift in Sources */,
+				9CFABC13C0D460A72A4E7FE5 /* HomeView.swift in Sources */,
+				9A309F1A8DB1885C9C4B5D9C /* NihonshuQuizApp.swift in Sources */,
+				313EE811EF4547F1FB915414 /* NihonshuTheme.swift in Sources */,
+				CA80DEF4A5C91C65307AC801 /* QuestionRepository.swift in Sources */,
+				075C047B95F39DF14639DDB0 /* QuestionStats.swift in Sources */,
+				271042F288B9C527D584CEA5 /* QuizQuestion.swift in Sources */,
+				876E6504B3E415D629C124A0 /* QuizSession.swift in Sources */,
+				12C7108D83B0F5BE0EF3E28C /* QuizTimer.swift in Sources */,
+				476C01152726A6685DCB9FAE /* QuizView.swift in Sources */,
+				7435670AB59FE3700364C48A /* ResultView.swift in Sources */,
+				D08EF724461FC58F123503A3 /* SettingsView.swift in Sources */,
+				2886E85583C490285EFC3E1B /* SoundPlayer.swift in Sources */,
+				68D9665DB844AEA22F2C581D /* SplashView.swift in Sources */,
+				B0CCA3B3BFFD1FEAEE249A7E /* UnavailableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2191BF3F2C50857B90E2EB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC693F82F6994593647EF387 /* NihonshuQuiz */;
+			targetProxy = 2B246024C5E829382B8F00D0 /* PBXContainerItemProxy */;
+		};
+		E5D9B7DB9D9D0210AE3BB04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC693F82F6994593647EF387 /* NihonshuQuiz */;
+			targetProxy = 263FF63A26F06C723BF474BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C77E3641E54CD316B513148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumiaki.nihonshuQuiz.tests;
+				PRODUCT_NAME = NihonshuQuizTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NihonshuQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NihonshuQuiz";
+			};
+			name = Debug;
+		};
+		1FEC5E601528852978C08595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7R927F3U4V;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		41741B80DB57BDF489E8480A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumiaki.nihonshuQuiz.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NihonshuQuiz;
+			};
+			name = Release;
+		};
+		66699CDB9D128DF8A45277DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumiaki.nihonshuQuiz.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NihonshuQuiz;
+			};
+			name = Debug;
+		};
+		A2701362B54FFF003257B121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7R927F3U4V;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A9D87316A481F60656453948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADMOB_APP_ID = "ca-app-pub-3940256099942544~1458002511";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NihonshuQuiz/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumiaki.nihonshuQuiz;
+				PRODUCT_MODULE_NAME = NihonshuQuiz;
+				PRODUCT_NAME = NihonshuQuiz;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BCF5DA011EA33CB226524312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADMOB_APP_ID = "ca-app-pub-3940256099942544~1458002511";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NihonshuQuiz/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumiaki.nihonshuQuiz;
+				PRODUCT_MODULE_NAME = NihonshuQuiz;
+				PRODUCT_NAME = NihonshuQuiz;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6C1467B539F0092103683C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumiaki.nihonshuQuiz.tests;
+				PRODUCT_NAME = NihonshuQuizTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NihonshuQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NihonshuQuiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80BD69AC0EFD763D1F3CADE6 /* Build configuration list for PBXProject "NihonshuQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEC5E601528852978C08595 /* Debug */,
+				A2701362B54FFF003257B121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D75EAEBFE7124E37FFCD33ED /* Build configuration list for PBXNativeTarget "NihonshuQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66699CDB9D128DF8A45277DD /* Debug */,
+				41741B80DB57BDF489E8480A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D93158A42D34C6EC189D05E8 /* Build configuration list for PBXNativeTarget "NihonshuQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C77E3641E54CD316B513148 /* Debug */,
+				F6C1467B539F0092103683C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC925C96352B425DD9D6477D /* Build configuration list for PBXNativeTarget "NihonshuQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF5DA011EA33CB226524312 /* Debug */,
+				A9D87316A481F60656453948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F15E0FFB9E5144E4B7C3B5F /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+		CF3F4CAC5D2E3B8C21142211 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D20DB1610EBAE004CCD4369 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF3F4CAC5D2E3B8C21142211 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		E679D107168910323331F46A /* GoogleUserMessagingPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F15E0FFB9E5144E4B7C3B5F /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */;
+			productName = GoogleUserMessagingPlatform;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1CEAFD802E8C99EF45227F0A /* Project object */;
+}

@@ -1,0 +1,98 @@
+name: NihonshuQuiz
+options:
+  developmentLanguage: ja
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    CODE_SIGN_STYLE: Automatic
+    CURRENT_PROJECT_VERSION: 1
+    DEVELOPMENT_TEAM: "7R927F3U4V"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    MARKETING_VERSION: 1.0.0
+    SWIFT_VERSION: 5.0
+packages:
+  GoogleMobileAds:
+    url: https://github.com/googleads/swift-package-manager-google-mobile-ads.git
+    from: 13.3.0
+  UserMessagingPlatform:
+    url: https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git
+    from: 3.1.0
+targets:
+  NihonshuQuiz:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: NihonshuQuiz/App
+      - path: NihonshuQuiz/Models
+      - path: NihonshuQuiz/Services
+      - path: NihonshuQuiz/Views
+      - path: NihonshuQuiz/Assets.xcassets
+      - path: NihonshuQuiz/Resources
+    settings:
+      configs:
+        Debug:
+          # Google公式テストアプリID。日本酒版のAdMobアプリID発行後に差し替える（Releaseも同様）。
+          ADMOB_APP_ID: ca-app-pub-3940256099942544~1458002511
+        Release:
+          ADMOB_APP_ID: ca-app-pub-3940256099942544~1458002511
+      base:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_FILE: NihonshuQuiz/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.nihonshuQuiz
+        PRODUCT_MODULE_NAME: NihonshuQuiz
+        PRODUCT_NAME: NihonshuQuiz
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+    dependencies:
+      - package: GoogleMobileAds
+        product: GoogleMobileAds
+      - package: UserMessagingPlatform
+        product: GoogleUserMessagingPlatform
+  NihonshuQuizTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: NihonshuQuizTests
+    dependencies:
+      - target: NihonshuQuiz
+    settings:
+      base:
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.nihonshuQuiz.tests
+        PRODUCT_NAME: NihonshuQuizTests
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/NihonshuQuiz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NihonshuQuiz"
+  NihonshuQuizUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: NihonshuQuizUITests
+    dependencies:
+      - target: NihonshuQuiz
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.fumiaki.nihonshuQuiz.uitests
+        TEST_TARGET_NAME: NihonshuQuiz
+schemes:
+  NihonshuQuiz:
+    build:
+      targets:
+        NihonshuQuiz: all
+    test:
+      targets:
+        - NihonshuQuizTests
+        - NihonshuQuizUITests
+      gatherCoverageData: true
+    run:
+      config: Debug
+    archive:
+      config: Release

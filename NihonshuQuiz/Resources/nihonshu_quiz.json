@@ -1,0 +1,4338 @@
+[
+  {
+    "question": "日本酒造りに特に向く米を何という？",
+    "choices": [
+      "酒造好適米",
+      "飯米専用種",
+      "糯米専用種",
+      "古代米"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "酒造りに向く米は酒造好適米（酒米）と呼ばれます。一般に大粒で、心白があり、タンパク質が少ない品種を指します。",
+    "difficulty": "Easy",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の原料米は、主食用の米と同じ系統の米である。正しい系統は？",
+    "choices": [
+      "インディカ系の米",
+      "ジャポニカ系の水稲うるち米",
+      "陸稲の糯米",
+      "麦の一種"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "原料米は飯米と同じジャポニカ系統の水稲うるち米です。その中でも酒造りに適した品種が酒造好適米と呼ばれます。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒米の代表的な品種として、一般に挙げられるのはどれ？",
+    "choices": [
+      "コシヒカリ",
+      "あきたこまち",
+      "山田錦",
+      "ひとめぼれ"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "山田錦、五百万石、美山錦、雄町などが代表的な酒造好適米として知られます。コシヒカリは主食用ブランド米です。",
+    "difficulty": "Easy",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒造好適米の特徴として、飯米と比べて当てはまるのはどれ？",
+    "choices": [
+      "粒が小さく、心白がなく、タンパク質が多い",
+      "粒が小さく、粘りが非常に強い",
+      "香りが強く、粒が硬くて割れやすい",
+      "粒が大きく、心白があり、タンパク質が少ない"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "酒造好適米は、大粒であること、心白があること、タンパク質が少ないことが特徴です。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "米粒の中心にある、白くうるんだ部分を何という？",
+    "choices": [
+      "心白",
+      "糠",
+      "胚芽",
+      "外皮"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "心白は米粒の中心の白い部分です。デンプン粒が粗く、こうじ菌が入り込みやすいので、こうじ造りに役立ちます。",
+    "difficulty": "Easy",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "心白が大きい米がこうじ造りに向く理由は？",
+    "choices": [
+      "米が水を吸わなくなるため",
+      "こうじ菌が繁殖しやすく、米の内部まで入り込みやすいため",
+      "米が甘くなって、酵母が不要になるため",
+      "精米にかかる時間が短くなるため"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "心白はデンプン粒が粗い部分で、こうじ菌が繁殖しやすく、米の中へ菌糸が入り込む「破精込み」が容易になります。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "玄米1,000粒の重さを何という？",
+    "choices": [
+      "百粒歩合",
+      "粒度比",
+      "千粒重",
+      "精米重"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "千粒重は粒がそろった玄米1,000粒の重さです。飯米は20〜22g程度、25g以上のものは大粒米と呼ばれます。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "山田錦を育成した都道府県は？",
+    "choices": [
+      "新潟県",
+      "長野県",
+      "岡山県",
+      "兵庫県"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "山田錦は大正12年（1923年）に兵庫県農業試験場で人工交配された品種で、昭和11年（1936年）に命名されました。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "五百万石を育成した都道府県は？",
+    "choices": [
+      "新潟県",
+      "兵庫県",
+      "秋田県",
+      "広島県"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "五百万石は新潟県農業試験場で交配され、昭和32年（1957年）に命名されました。機械でのこうじ造りに適するとされます。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "美山錦は、ある品種に放射線（γ線）を当てた突然変異から生まれた。育成した県は？",
+    "choices": [
+      "山形県",
+      "長野県",
+      "福岡県",
+      "石川県"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "美山錦は長野県で「たかね錦」にγ線を照射し、1978年に誕生した品種です。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒造好適米の中で、岡山県で育ち、茎が長くて倒れやすい欠点があるとされる品種は？",
+    "choices": [
+      "美山錦",
+      "五百万石",
+      "雄町",
+      "吟のさと"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "雄町は大粒で優れた品種ですが、茎が長く、実る頃に倒れやすいので機械刈りがしにくいといわれます。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "国税庁の資料で、令和2年産の醸造用玄米の検査数量が最も多かった酒米は？",
+    "choices": [
+      "美山錦",
+      "雄町",
+      "若水",
+      "山田錦"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "同資料では山田錦が約28,162トン、五百万石が約16,794トン、美山錦が約5,710トンでした。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "一般家庭で食べるお米の精米歩合は、どのくらいとされる？",
+    "choices": [
+      "92％程度",
+      "50％程度",
+      "70％程度",
+      "30％程度"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "家庭で食べる米は精米歩合92％程度（表層を8％程度削る）です。清酒の原料米は、75％以下の白米が多く使われます。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒造りで米を精米する理由は？",
+    "choices": [
+      "米を柔らかくして、炊きやすくするため",
+      "表層に多いタンパク質などが多すぎると、香りや味を損なうため",
+      "米に含まれるデンプンを取り除くため",
+      "米を白くして、見た目を良くするため"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "米の表層には、タンパク質、脂質、灰分などが多く含まれます。多すぎると香りや味が悪くなるので、精米して減らします。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "こうじ米とは何のための米？",
+    "choices": [
+      "お酒を蒸留するための米",
+      "酒粕を作るための米",
+      "米こうじを造るのに使う白米",
+      "お酒に色をつけるための米"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "こうじ米は、米こうじの製造に使う白米です。それ以外の蒸し米は掛け米と呼ばれます。",
+    "difficulty": "Easy",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "江戸前期の鴻池の酒造りを記した資料で、精米歩合は現在の飯米より高い94〜95％と計算されている。その主な理由として資料が示すのは？",
+    "choices": [
+      "酒米がそもそも小粒だったため",
+      "精米を一切せずに玄米を使ったため",
+      "電動の精米機が使われたため",
+      "足踏み式の唐臼で精米していたため"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "『童蒙酒造記』の時代の精米は唐臼を使った足踏み式で、精米歩合は94〜95％と計算されています。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "天明年間（1781〜1789年）以降、灘で取り入れられ、80％程度までの精米を可能にした設備は？",
+    "choices": [
+      "水車精米",
+      "蒸気機関の精米機",
+      "竪型精米機",
+      "石臼の手回し"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "灘では六甲山系の急流を利用した水車精米が取り入れられ、80％程度までの精米が可能になりました。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "1930年頃に広島の佐竹利一が開発し、高度な精白を可能にしたとされる機械は？",
+    "choices": [
+      "横型脱穀機",
+      "竪型精米機",
+      "水車",
+      "足踏み式の唐臼"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "竪型精米機は現在も日本酒業界で広く使われており、高度精白が可能になったとされます。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒米のうち、おもに掛け米として使われる、価格が比較的安い米の説明として資料に挙がるのは？",
+    "choices": [
+      "必ず主食用ブランド米に限られる",
+      "心白が最も大きい品種に限られる",
+      "多収で購入しやすく、酒造適性が良いなどの理由で使われる",
+      "輸入米しか使えない"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "掛米用品種は、多収で安く購入しやすく、栽培適性や蒸米の溶解性などの酒造適性が良いことから使われます。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "表示で、原料米の品種名を書けるのはどんな場合？",
+    "choices": [
+      "品種を問わず常に",
+      "使用割合が10％を超える場合",
+      "特定名称酒のみで、割合に関係なく",
+      "その品種の使用割合が50％を超える場合"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "品種名は、使用割合が50％を超える場合に、その割合と併せて表示できます。例えば「山田錦100％」のように書けます。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "原料米の品種名を表示するとき、あわせて必要なのは？",
+    "choices": [
+      "その品種の使用割合",
+      "米の産地の標高",
+      "田んぼの面積",
+      "精米した日の天気"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "品種名を表示する場合は、使用割合も併せて表示します。",
+    "difficulty": "Medium",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒造好適米は、飯米に比べて栽培が難しいと資料にある。この状況の結果として挙げられているのは？",
+    "choices": [
+      "酒米だけで全ての需要がまかなわれている",
+      "飯米もかなりの量が酒米として使われている",
+      "酒米は全て輸入されている",
+      "酒米の価格は飯米より常に安い"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "酒造好適米の生産量だけでは酒造需要をまかなえず、飯米もかなりの量が酒造に使われているといわれます。",
+    "difficulty": "Hard",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "精米歩合とは、何に対する何の割合？",
+    "choices": [
+      "白米に対する玄米の重量の割合",
+      "水に対する米の重量の割合",
+      "玄米に対する白米の重量の割合",
+      "米に対する糠の重量の割合"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "精米歩合は、白米のその玄米に対する重量の割合です。60％なら、玄米の表層を40％削り取ったことになります。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "精米歩合60％とは、玄米の表層をどれだけ削ることか？",
+    "choices": [
+      "60％",
+      "6％",
+      "16％",
+      "40％"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "精米歩合60％は、白米が玄米の60％の重さという意味で、表層の40％を削り取っています。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "精米歩合の数字が小さいほど、米はどうなる？",
+    "choices": [
+      "より多く削られている",
+      "削られる量が少ない",
+      "米が大粒になる",
+      "米の色が濃くなる"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "精米歩合は残った割合なので、数字が小さいほど多く削られています。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "特定名称の清酒は全部で何種類に分類される？",
+    "choices": [
+      "3種類",
+      "8種類",
+      "5種類",
+      "12種類"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "特定名称は、原料や製造方法の違いにより8種類に分類されます。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「大吟醸酒」の精米歩合の要件は？",
+    "choices": [
+      "60％以下",
+      "70％以下",
+      "50％以下",
+      "要件なし"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "大吟醸酒は精米歩合50％以下で、吟醸造りをし、固有の香味と色沢が特に良好なものです。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「吟醸酒」の精米歩合の要件は？",
+    "choices": [
+      "50％以下",
+      "70％以下",
+      "40％以下",
+      "60％以下"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "吟醸酒は精米歩合60％以下で、吟醸造りをし、固有の香味と色沢が良好なものです。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「本醸造酒」の精米歩合の要件は？",
+    "choices": [
+      "70％以下",
+      "60％以下",
+      "50％以下",
+      "80％以下"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "本醸造酒は精米歩合70％以下で、米、米こうじ、醸造アルコールを原料とします。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「純米酒」に精米歩合の要件はある？（現在の基準）",
+    "choices": [
+      "70％以下",
+      "ない",
+      "60％以下",
+      "50％以下"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "平成16年（2004年）1月1日施行の改正で、純米酒の要件から精米歩合70％以下が削除されました。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "純米酒を含む特定名称の清酒で、こうじ米の使用割合に求められる条件は？",
+    "choices": [
+      "5％以上",
+      "30％以上",
+      "15％以上",
+      "50％以上"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "改正で、特定名称の清酒にはこうじ米の使用割合15％以上という要件が追加されました。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「純米酒」の原料として使えないものは？",
+    "choices": [
+      "米こうじ",
+      "米",
+      "水",
+      "醸造アルコール"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "純米酒は米と米こうじ（と水）だけを原料とし、醸造アルコールは使いません。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "吟醸酒や本醸造酒に使える醸造アルコールの量の上限は？",
+    "choices": [
+      "白米の重量の10％以下",
+      "白米の重量の30％以下",
+      "白米の重量の50％以下",
+      "上限はない"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "醸造アルコールは、吟醸酒や本醸造酒では白米重量の10％以下に制限されています。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "醸造アルコールとは何から造られたアルコール？",
+    "choices": [
+      "米を炊いて蒸留したものに限る",
+      "でん粉質物や含糖質物を発酵させて蒸留したもの",
+      "ぶどうを蒸留したもの",
+      "石油から合成したもの"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "醸造アルコールは、でん粉質物や含糖質物から醸造されたアルコールをいいます。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "もろみに醸造アルコールを適量添加することの効果として、資料に挙がるのは？",
+    "choices": [
+      "色が濃く、甘くなる",
+      "アルコール度数が必ず下がる",
+      "香りが高く、すっきりした味になる",
+      "米の使用量が必ず増える"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "適量のアルコール添加で香りが高くなり、すっきりした味になるとされます。また、火落菌の増殖を防ぐ効果もあります。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「純米吟醸酒」の精米歩合の要件は？",
+    "choices": [
+      "50％以下",
+      "70％以下",
+      "要件なし",
+      "60％以下"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "純米吟醸酒は、米と米こうじを原料に、精米歩合60％以下で吟醸造りをしたものです。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「純米大吟醸酒」の精米歩合の要件は？",
+    "choices": [
+      "50％以下",
+      "60％以下",
+      "70％以下",
+      "40％以下"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "純米大吟醸酒は、米と米こうじだけを原料に、精米歩合50％以下で吟醸造りをしたものです。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「特別純米酒」の精米歩合の要件として正しいのは？",
+    "choices": [
+      "50％以下だけ",
+      "60％以下、または特別な製造方法（その旨の説明表示）",
+      "70％以下だけ",
+      "要件はなく、名乗り放題"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "特別純米酒と特別本醸造酒は、精米歩合60％以下か、特別な製造方法であり、その旨を容器などに説明表示する必要があります。",
+    "difficulty": "Hard",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「特別本醸造酒」の精米歩合の要件として正しいのは？",
+    "choices": [
+      "50％以下だけ",
+      "70％以下だけ",
+      "60％以下、または特別な製造方法（説明表示）",
+      "要件なし"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "特別本醸造酒は、本醸造酒よりも香味・色沢が特に良好であることが要件です。精米歩合60％以下か、特別な製造方法を説明表示します。",
+    "difficulty": "Hard",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "吟醸造りとは、どんな造り方？",
+    "choices": [
+      "米を精米せずに、高温で一気に発酵させる",
+      "蒸米を使わず、生米だけで発酵させる",
+      "仕込みをせずに、水だけで造る",
+      "よく精米した白米を、低温でゆっくり発酵させて造る"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "吟醸造りは、吟味して醸造することで、伝統的に、よく精米した白米を低温でゆっくり発酵させ、特有の芳香（吟香）を持たせる造りです。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "特定名称の清酒を表示する場合、原材料名の近くに併記することが義務の項目は？",
+    "choices": [
+      "精米歩合",
+      "使用した酵母名",
+      "酒蔵の創業年",
+      "米を作った農家名"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "特定名称を表示する清酒には、原材料名の近接する場所に精米歩合を併せて表示します。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "特定名称の清酒に使える白米は、農産物検査法で何等以上に格付けされた玄米を精米したものに限られる？",
+    "choices": [
+      "1等のみ",
+      "3等以上",
+      "2等以上",
+      "等級は問わない"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "特定名称の清酒に使う白米は、農産物検査法で3等以上に格付けされた玄米（またはこれに相当するもの）を精米したものに限られます。",
+    "difficulty": "Hard",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "精米歩合や醸造アルコール割合が基準に合うかを判定するとき、端数はどう扱う？",
+    "choices": [
+      "四捨五入する",
+      "切り上げる",
+      "1％未満の端数を切り捨てる",
+      "端数も含めて厳密に計算する"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "告示では、1％未満の端数を切り捨てた数値で判定すると定められています。",
+    "difficulty": "Hard",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 清酒の製法品質表示基準を定める件（国税庁告示第8号）",
+    "sourceURL": "https://www.nta.go.jp/law/kokuji/891122/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "醸造アルコールの重量は、何度のアルコールに換算して計算する？",
+    "choices": [
+      "アルコール分15度",
+      "アルコール分50度",
+      "アルコール分100度の水",
+      "アルコール分95度"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "醸造アルコールを原料の一部とする場合、その重量はアルコール分95度換算で計算します。",
+    "difficulty": "Hard",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 清酒の製法品質表示基準を定める件（国税庁告示第8号）",
+    "sourceURL": "https://www.nta.go.jp/law/kokuji/891122/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "原材料名の表示で、使用した原材料はどんな順に書く？",
+    "choices": [
+      "使用量の多い順",
+      "五十音順",
+      "使用量の少ない順",
+      "仕入れた順"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "原材料名は、水を除き、使用量の多い順に記載します。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 清酒の製法品質表示基準を定める件（国税庁告示第8号）",
+    "sourceURL": "https://www.nta.go.jp/law/kokuji/891122/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "特定名称酒以外の清酒（普通酒）の容器に、特定名称に類似した用語を表示するとき必要なのは？",
+    "choices": [
+      "何も必要ない",
+      "特定名称の清酒に該当しないことが分かる説明表示",
+      "国税庁長官の個別の許可",
+      "蔵元の署名"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "類似用語の近くに、原則8ポイント以上の文字で、特定名称の清酒に該当しないことが分かる説明表示が必要です。",
+    "difficulty": "Hard",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「吟醸造り」に当てはまらない特徴は？",
+    "choices": [
+      "精米歩合が低い米を使う",
+      "低温でゆっくり発酵させる",
+      "高温で短期間に発酵させる",
+      "吟香と呼ばれる芳香を持たせる"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "吟醸造りは低温でゆっくり発酵させる造りです。高温で短期間に発酵させる造りではありません。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒造りで、蒸した米に種こうじを振って育てる工程を何という？",
+    "choices": [
+      "上槽",
+      "火入れ",
+      "割水",
+      "製麹（こうじ造り）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "蒸米に種こうじ（こうじ菌の胞子）をつけて繁殖させ、米こうじを造る工程です。こうじは米のデンプンを糖に変えます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "米こうじの最も大切な役割は？",
+    "choices": [
+      "米のデンプンを糖に変える（糖化）",
+      "米を発酵させてアルコールを作る",
+      "お酒を濾して澄ませる",
+      "お酒を殺菌する"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "こうじ菌の酵素が米のデンプンをぶどう糖などに分解します。酵母はこの糖でアルコール発酵をします。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酵母の主な働きは？",
+    "choices": [
+      "米を蒸す",
+      "糖をアルコールと二酸化炭素に変える",
+      "米を削る",
+      "お酒を濾す"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "酵母は糖をアルコールと炭酸ガス（二酸化炭素）に分解します。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒造りで、糖化と発酵が同じ容器で同時に進む方式を何という？",
+    "choices": [
+      "単発酵",
+      "二段蒸留",
+      "並行複発酵",
+      "連続式蒸留"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "こうじによる糖化と酵母によるアルコール発酵が並行して進むため、並行複発酵と呼ばれます。世界的にも特徴的な方式です。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の酒母は、別の呼び名で何ともいう？",
+    "choices": [
+      "麹（こうじ）",
+      "粕（かす）",
+      "醪（もろみ）",
+      "酛（もと）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "酒母は酛とも呼ばれ、酵母を蒸米・こうじ・水の中でできるだけ純粋に大量培養したものです。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒母造りで最も大切なのは、何を防ぐこととされる？",
+    "choices": [
+      "雑菌による汚染",
+      "米の割れ",
+      "水の凍結",
+      "光による色の変化"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "乳酸を存在させて、雑菌の汚染をいかに防ぐかが酒母造りの最大のポイントです。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "乳酸菌を自然に増やす伝統的な酒母のタイプは？",
+    "choices": [
+      "速醸系酒母",
+      "生酛系酒母",
+      "高温糖化酒母",
+      "吟醸酒母"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "乳酸菌を自然に増殖させるのが生酛系、仕込み時に乳酸を添加するのが速醸系です。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "仕込み時に乳酸を添加して造る酒母は？",
+    "choices": [
+      "生酛系酒母",
+      "山卸系酒母",
+      "速醸系酒母",
+      "無乳酸酒母"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "速醸系酒母は、乳酸を加えて雑菌を抑えつつ、酵母を短期間で増やします。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "明治以降に醸造試験所で開発された、山卸の作業を省いた酒母を何という？",
+    "choices": [
+      "高温糖化酒母",
+      "菩提泉",
+      "生酛",
+      "山卸廃止酒母（山廃）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "醸造試験所では、製造工程の合理化・安定化のため、山卸廃止酒母や速醸酒母が開発されました。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "もろみ造りで、蒸米・こうじ・水を一度に入れず、何回かに分けて加える方法を何という？",
+    "choices": [
+      "段仕込み（三段仕込み）",
+      "一括仕込み",
+      "連続蒸留",
+      "冷却濾過"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "酵母を増やしながら徐々に量を増やすため、原料を分けて加えます。一般には3回に分ける三段仕込みです。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒のもろみ造りで、一般的に原料を何回に分けて仕込む？",
+    "choices": [
+      "1回",
+      "3回",
+      "2回",
+      "10回"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "三回に分けて仕込む三段仕込みが一般的です。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「こうじ歩合」は、総米に対するどの米の割合？",
+    "choices": [
+      "酒母用の水",
+      "掛け米のみ",
+      "こうじ米",
+      "精米で出た糠"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "こうじ歩合は、総米（こうじ米＋掛け米）に対するこうじ米の割合で、標準的には20％程度です。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "資料に示された、標準的な「汲水歩合」（総米に対する仕込水の割合）は？",
+    "choices": [
+      "30％程度",
+      "70％程度",
+      "200％程度",
+      "130％程度"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "汲水歩合は、総米1kgに対する仕込水のリットル数の割合で、130％程度とされています。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "資料に示された、標準的な「酒母歩合」は？",
+    "choices": [
+      "7％程度",
+      "1％程度",
+      "30％程度",
+      "50％程度"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "酒母歩合は、総米に対する酒母に使う米の割合で、7％程度とされています。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "発酵が終わったもろみを搾って、清酒と酒粕に分ける工程は？",
+    "choices": [
+      "精米",
+      "上槽（搾り）",
+      "製麹",
+      "仕込み"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "発酵後のもろみを搾り、清酒と酒粕に分けます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "搾ったあとの日本酒の工程として、資料に挙がる順序で正しいのは？",
+    "choices": [
+      "貯蔵 → 精米 → 火入れ",
+      "火入れ → 製麹 → 貯蔵",
+      "滓引き・濾過 → 火入れ → 貯蔵",
+      "割水 → 仕込み → 滓引き"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "搾っただけの酒は濁っているため、静置して濁りを沈め、濾過してから加熱殺菌（火入れ）をして貯蔵します。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "加熱殺菌の工程を、日本酒では何という？",
+    "choices": [
+      "割水",
+      "酘",
+      "櫂入れ",
+      "火入れ"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "火入れは、日本酒を加熱して殺菌し、品質を安定させる工程です。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "出荷前に水を加えてアルコール度数を調整する作業を何という？",
+    "choices": [
+      "割水",
+      "上槽",
+      "盛り",
+      "切返し"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "出荷前に割水をして、適度なアルコール濃度（一般には15〜16％）に調整します。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "出荷時のアルコール度数として、資料が「一般には」とする範囲は？",
+    "choices": [
+      "5〜6％",
+      "15〜16％",
+      "30〜40％",
+      "0.5〜1％"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "出荷前に割水して、一般には15〜16％に調整し、再度火入れをして瓶詰めします。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "原酒でアルコール度数が20％を超えることがあるのは、醸造酒（蒸留していない酒）の中でどうか？",
+    "choices": [
+      "ビールと同じ程度",
+      "ワインよりも低い",
+      "世界の醸造酒の中でも最高度数",
+      "醸造酒では最低度数"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "純米酒でも原酒は20％を超え、世界の醸造酒の中で最高度数といわれます。並行複発酵と清酒酵母の特性によるものです。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の製造工程のうち、「精米」「洗米・浸漬」「蒸し」をまとめた工程は？",
+    "choices": [
+      "酒母工程",
+      "仕込み工程",
+      "火入れ工程",
+      "原料処理工程"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "蒸米づくりは精米、洗米・浸漬、蒸しの三つの工程を経て、こうじ・酒母・もろみで使われます。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒造りでよく言われる「一こうじ、二酛、三造り」で、最初に挙げられるのは？",
+    "choices": [
+      "こうじ",
+      "酛",
+      "造り",
+      "水"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "こうじが日本酒造りの中でとりわけ重要であることを表す言葉です。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒に使われるこうじ菌の一般的な種類は？",
+    "choices": [
+      "黒こうじ菌のみ",
+      "黄こうじ菌（アスペルギルス・オリゼー）",
+      "乳酸菌",
+      "パン酵母"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "日本酒や味噌・醤油などには黄こうじ菌が使われます。黒こうじ菌は沖縄の泡盛などに使われます。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "2006年に日本醸造学会が「国菌」に認定したものは？",
+    "choices": [
+      "乳酸菌",
+      "納豆菌",
+      "こうじ菌",
+      "パン酵母"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "日本醸造学会は、こうじ菌を我が国の貴重な財産として「国菌」に認定しました。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "こうじ菌の胞子のことを、酒造りでは何という？",
+    "choices": [
+      "酒母",
+      "酘",
+      "糠",
+      "種こうじ"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "種こうじはこうじ菌の胞子で、蒸米に振りかけて米こうじを造ります。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "米こうじで、米の表面に白くこうじ菌が繁殖した状態や、その状態を指す酒造用語は？",
+    "choices": [
+      "破精（はぜ）",
+      "糠",
+      "酘",
+      "粕"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "米の外側に白い斑点のようにこうじ菌が繁殖した状態を「破精」といいます。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本の米こうじの特徴で、アジアの餅こうじ型と対比されるのは？",
+    "choices": [
+      "粉にして煉瓦状にする型",
+      "米粒1粒ずつにこうじ菌が増える「散こうじ型」",
+      "団子状に固める型",
+      "液状にして混ぜる型"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "日本は蒸米にこうじ菌を繁殖させるため、粒ごとに菌が増える散こうじ型です。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒造りの「友こうじ法」の説明として正しいのは？",
+    "choices": [
+      "こうじを使わない方法",
+      "友人と共同で仕込む方法",
+      "使ったこうじの一部を、次のこうじ造りの元にする方法",
+      "水こうじだけで仕込む方法"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "友こうじ法は、品質劣化の可能性があるため、胞子を大量に保存して使う種こうじ法に改良されました。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒用の米こうじ造りで、こうじ室の温度として資料に挙がる範囲は？",
+    "choices": [
+      "5〜8℃",
+      "60〜70℃",
+      "90〜100℃",
+      "25〜28℃"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "こうじ室は、こうじ菌の繁殖に適した温度（25〜28℃）と湿度を保つ構造になっています。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "引込みから出こうじまで、手作業のこうじ造りにかかる時間は？",
+    "choices": [
+      "48〜55時間",
+      "1〜2時間",
+      "約10日",
+      "約3か月"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "こうじ造りは、引込みから出こうじまで、ほとんど寝ずの作業になる、酒造りで最もつらい仕事といわれます。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の発酵に使われる酵母の、一般的な呼び名は？",
+    "choices": [
+      "ビール酵母",
+      "清酒酵母",
+      "パン酵母",
+      "ワイン酵母"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "日本酒醸造への適性を指標に選抜された菌株群は、清酒酵母と呼ばれます。",
+    "difficulty": "Easy",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「よい日本酒はよい酵母から」と言われる理由として資料に挙がるのは？",
+    "choices": [
+      "酵母が米を精米するため",
+      "酵母が水を作るため",
+      "酵母の選択が日本酒の香味を大きく左右するため",
+      "酵母が色を決めるだけのため"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "得られる清酒の官能特性は使用した菌株に左右される面が大きく、酵母の選択は日本酒醸造の最重要ファクターの一つです。",
+    "difficulty": "Medium",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "清酒酵母が初めて分離されたと報告されたのは何年？",
+    "choices": [
+      "1604年",
+      "1985年",
+      "1925年",
+      "1895年（明治28年）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "清酒酵母の分離が初めて報告されたのは1895年です。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酵母の分与・頒布を、現在も全国の酒蔵に行っている団体は？",
+    "choices": [
+      "日本醸造協会",
+      "日本ソムリエ協会",
+      "全国農業協同組合連合会",
+      "日本学術会議"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "選抜された優良な酵母は、日本醸造協会を通じて全国の酒蔵に頒布され、「きょうかい酵母」と呼ばれます。",
+    "difficulty": "Medium",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "醸造試験所（現在の酒類総合研究所の前身）が設立されたのは何年？",
+    "choices": [
+      "1804年",
+      "1904年（明治37年）",
+      "1945年",
+      "1989年"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "もろみが腐るなどの不安定さを解消するため、1904年に大蔵省醸造試験所が設立されました。",
+    "difficulty": "Medium",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "きょうかい6号酵母の分譲が始まったのは何年？",
+    "choices": [
+      "1895年",
+      "1968年",
+      "1935年（昭和10年）",
+      "1999年"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "6号は秋田県の新政酒造のもろみから分離され、1935年から分譲が始まりました。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "きょうかい7号酵母は、どの県の蔵のもろみから分離された？",
+    "choices": [
+      "秋田県",
+      "熊本県",
+      "茨城県",
+      "長野県"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "7号は長野県の宮坂醸造の「真澄」のもろみから分離され、1946年に分譲が始まりました。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "きょうかい9号酵母は、吟醸酒用として適性が高く、1968年から分譲された。分離された県は？",
+    "choices": [
+      "熊本県",
+      "長野県",
+      "秋田県",
+      "岡山県"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "9号は熊本県酒造研究所の「香露」のもろみから分離された酵母です。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "今日の日本酒の大半は、どの酵母グループの菌株で造られていると資料にある？",
+    "choices": [
+      "K1グループ",
+      "K7グループ",
+      "K2グループ",
+      "K3グループ"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "K6、K7、K9、K10は遺伝的に近縁で、便宜的にK7グループと呼ばれます。今日の日本酒の大半はこのグループの菌株で製造されます。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "清酒もろみの低温環境でよく発酵する酵母が優良とされる。この低温とは何℃未満？",
+    "choices": [
+      "40℃未満",
+      "60℃未満",
+      "15℃未満",
+      "0℃未満"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "清酒もろみの低温環境（15℃未満）でよく発酵し、香味に優れた日本酒を醸すものが優良な菌株とされます。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "環境にいる酵母がもろみに入り込んで増殖したものを、昔から何と呼ぶ？",
+    "choices": [
+      "協会酵母",
+      "吟醸酵母",
+      "ビール酵母",
+      "蔵付き酵母"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "それまでは環境中の酵母を、酵母と認識せずに利用していました。これが蔵付き酵母です。",
+    "difficulty": "Medium",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の成分のうち、約何％が水とされる？",
+    "choices": [
+      "約80％",
+      "約10％",
+      "約30％",
+      "約99％"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "日本酒の成分の約80％は水なので、水の良し悪しは酒の品質に大きく影響します。",
+    "difficulty": "Easy",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "一般に、日本酒の仕込み水に適しているのは？",
+    "choices": [
+      "超硬水",
+      "軟水",
+      "海水",
+      "蒸留水に塩を加えたもの"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "一般に、軟水で仕込む日本酒の酒質は軽くきれいになるといわれます。",
+    "difficulty": "Easy",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "硬水とは、どんな成分を多く含む水？",
+    "choices": [
+      "糖分",
+      "アルコール",
+      "カルシウムとマグネシウム",
+      "ビタミンC"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "硬水は、アルカリ土類金属であるカルシウムイオンとマグネシウムイオンを多量に含む水です。",
+    "difficulty": "Medium",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒造りで水の大敵とされる成分は？",
+    "choices": [
+      "カリウム",
+      "リン",
+      "カルシウム",
+      "鉄分"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "鉄分が含まれていると、酒が褐色に着色されてしまいます。",
+    "difficulty": "Medium",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "灘の仕込み水として有名な「宮水」が汲まれる、兵庫県の市は？",
+    "choices": [
+      "西宮市",
+      "神戸市",
+      "姫路市",
+      "伊丹市"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "宮水は、兵庫県西宮市の海岸近くの特定の地下から汲み上げられる地下水です。",
+    "difficulty": "Easy",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "宮水が醸造用水として優れていると分かった（とされる）年は？",
+    "choices": [
+      "1540年",
+      "1840年（天保11年）",
+      "1940年",
+      "1640年"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "酒造家の山邑太左衛門が西宮の水の優秀さに気づき、1840年以降は灘の蔵でも西宮の水を使うようになったとされます。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "宮水に、他の酒造地域では例がないほど多く含まれるとされる成分は？",
+    "choices": [
+      "鉄",
+      "塩素",
+      "リン",
+      "糖"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "宮水は1リットルあたり2.7mgという多量のリンを含み、リン、カリウム、カルシウムはこうじ菌と酵母の増殖を助けます。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "宮水の硬度は、日本の醸造用水の中ではどうか？",
+    "choices": [
+      "最も低い部類",
+      "欧米の水よりずっと高い",
+      "ほぼゼロ",
+      "高い部類だが、欧米の一般的な酒造用水より低い"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "宮水は国内の醸造用水では硬度が高い部類ですが、欧米の一般的な酒造用水よりは低いとされます。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "広島で軟水に合った醸造法を開発した人物は？",
+    "choices": [
+      "三浦仙三郎",
+      "岸五郎",
+      "山邑太左衛門",
+      "貝原益軒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "三浦仙三郎らは、広島の軟水に合う低温仕込み・低温発酵の軟水醸造法を開発しました。",
+    "difficulty": "Medium",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "軟水で仕込むときに起きやすいとされ、広島の軟水醸造で対策された現象は？",
+    "choices": [
+      "酒が必ず甘くなりすぎる",
+      "酵母の増殖が遅れ気味になる（湧き遅れ）",
+      "米が全く溶けなくなる",
+      "酒が必ず青くなる"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "軟水はミネラル分が少ないため酵母の増殖が遅れがちで、突き破精こうじや低温の仕込みで対策しました。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒造りに使う水のうち、原酒のアルコール度数を調整するために加える水を何という？",
+    "choices": [
+      "洗瓶用水",
+      "雑用用水",
+      "割水用水",
+      "洗米用水"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "割水用水は仕込用水と同レベルの水質が要求されます。",
+    "difficulty": "Hard",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒造りの現場を率いる責任者を何という？",
+    "choices": [
+      "蔵人",
+      "問屋",
+      "仲買",
+      "杜氏"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "杜氏は酒造りの責任者です。冬の農閑期などに出稼ぎで働く杜氏集団が、各地で形成されました。",
+    "difficulty": "Easy",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "南部杜氏の本拠とされる県は？",
+    "choices": [
+      "岩手県",
+      "新潟県",
+      "石川県",
+      "兵庫県"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "南部杜氏は岩手県全域の杜氏集団です。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "越後杜氏の本拠とされる県は？",
+    "choices": [
+      "岩手県",
+      "新潟県",
+      "広島県",
+      "福岡県"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "越後杜氏は新潟県全域の杜氏集団です。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "能登杜氏の本拠とされる地域は？",
+    "choices": [
+      "長野県の諏訪地方",
+      "岡山県西部",
+      "石川県の能登半島",
+      "兵庫県の多紀郡周辺"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "能登杜氏は石川県能登半島の杜氏集団です。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "丹波杜氏が活動した地域は？",
+    "choices": [
+      "秋田県の山内村",
+      "福岡県の柳川市",
+      "愛媛県の伊方町",
+      "兵庫県の多紀郡周辺"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "丹波杜氏は兵庫県多紀郡周辺を拠点とする杜氏集団です。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "伝統的な杜氏が冬に酒造りを行いやすかった背景として、資料が述べるのは？",
+    "choices": [
+      "寒造りが中心で、農閑期の出稼ぎ労働力を確保できた",
+      "夏の方が米の収穫が多いため",
+      "冬は水が使えないため",
+      "杜氏は夏だけ働く決まりだったため"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "寒造りの集中化により、冬の農閑期や漁のできない時期に農村・漁村から出稼ぎの労働力を確保でき、杜氏制度につながりました。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "蔵元自らが杜氏を務めることを何と呼ぶ？",
+    "choices": [
+      "社員杜氏",
+      "蔵元杜氏",
+      "出稼ぎ杜氏",
+      "名誉杜氏"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "戦後、季節雇用の杜氏・蔵人が減る中で、社員が担当する社員杜氏、経営者自らが担当する蔵元杜氏が増えました。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "1989年に福島県で旗揚げされた杜氏団体は？",
+    "choices": [
+      "下野杜氏",
+      "富山杜氏",
+      "会津杜氏",
+      "南部杜氏"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "会津杜氏は1989年に福島県で、下野杜氏は2006年に栃木県で、富山杜氏は2013年に富山県で団体が設立されました。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "江戸時代、上方から江戸へ酒を運んだ酒は、何と呼ばれた？",
+    "choices": [
+      "地廻り酒",
+      "濁り酒",
+      "迎え酒",
+      "下り酒"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "上方の主要産地「摂泉十二郷」から江戸に運ばれた酒を下り酒と呼びました。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "江戸時代、大坂から江戸へ酒樽だけを積んで運んだ船は？",
+    "choices": [
+      "樽廻船",
+      "菱垣廻船",
+      "北前船",
+      "朱印船"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "混載便の菱垣廻船のあとに、酒樽だけを積む樽廻船が現れました。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "江戸時代、江戸周辺の関東で造られ、灘酒より安価に取引された酒は？",
+    "choices": [
+      "下り酒",
+      "地廻り酒",
+      "菩提泉",
+      "練貫酒"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "関東地方の酒は地廻り酒と呼ばれ、灘酒よりも安価に取引されていました。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "江戸時代の中ごろから、伊丹・池田に代わって勢いを増した新興の産地は？",
+    "choices": [
+      "秋田",
+      "新潟",
+      "灘",
+      "熊本"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "18世紀半ばを過ぎると、新興の灘、今津、西宮に押されて、伊丹・池田は後れを取りました。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "灘五郷の位置として正しいのは？",
+    "choices": [
+      "新潟県の長岡市",
+      "秋田県の湯沢市",
+      "京都府の宇治市",
+      "兵庫県の神戸市灘区・東灘区、芦屋市、西宮市"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "地理的表示「灘五郷」は、兵庫県神戸市灘区、東灘区、芦屋市、西宮市を産地とします。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "清酒の地理的表示（GI）として、最初に指定された名称は？（平成17年）",
+    "choices": [
+      "白山",
+      "日本酒",
+      "灘五郷",
+      "新潟"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "「白山」（石川県白山市）は平成17年12月22日に指定されました。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "地理的表示「日本酒」の産地は？",
+    "choices": [
+      "兵庫県",
+      "日本国",
+      "京都府",
+      "新潟県"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "「日本酒」は平成27年12月25日に指定された地理的表示で、産地は日本国です。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "国税庁の一覧で、清酒の地理的表示に含まれる都道府県名は？",
+    "choices": [
+      "東京",
+      "神奈川",
+      "新潟",
+      "大阪の梅酒"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "新潟は令和4年2月7日に清酒の地理的表示として指定されました。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "国税庁の一覧で、令和2年に清酒として指定された地理的表示は？",
+    "choices": [
+      "北海道",
+      "東京",
+      "山梨",
+      "三重"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "三重は令和2年6月19日に指定されています。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "兵庫県伊丹市の地理的表示「伊丹」は、どの種類の酒？",
+    "choices": [
+      "清酒",
+      "焼酎",
+      "ぶどう酒",
+      "梅酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "「伊丹」は兵庫県伊丹市を産地とする清酒の地理的表示です。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "明治以降に伏見や広島・西条が名醸地として発展した背景として、資料が挙げるのは？",
+    "choices": [
+      "海外の船による輸出",
+      "水に恵まれたことと、鉄道による輸送手段の確保",
+      "高速道路の開通",
+      "空輸の発達"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "水に恵まれたことに加え、鉄道の開設で輸送手段が確保されたことも要因の一つとされます。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "国税庁の資料で、清酒の製造免許場数は1960年の約4,000場から、2018年には約何場へ減った？",
+    "choices": [
+      "約400場",
+      "約10,000場",
+      "約1,600場",
+      "約4万場"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "このうち実際に清酒を醸造している製造場は約1,200場とされます。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "新潟県酒造組合が1984年に開設した人材育成の場は？",
+    "choices": [
+      "清酒アカデミー",
+      "醸造試験所",
+      "杜氏大学",
+      "新潟清酒学校"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "福島県酒造組合も1992年に清酒アカデミーを開設しました。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "1980年代以降、各地の酒を楽しむ流れで使われた言葉は？",
+    "choices": [
+      "地酒ブーム",
+      "級別ブーム",
+      "増醸ブーム",
+      "配給ブーム"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "ナショナルブランドに加え、各地の地酒を楽しむ新しい選択肢が加わり、地酒ブームと呼ばれました。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の旨みの由来として、資料が挙げるのは？",
+    "choices": [
+      "酵母が糖から作る二酸化炭素",
+      "こうじ菌がタンパク質を分解してつくるアミノ酸",
+      "水に含まれる塩分",
+      "容器の木の香り"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "米のタンパク質を、こうじ菌の酵素が分解してアミノ酸がつくられ、これが日本酒独特の旨みになります。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "吟醸酒の最大の特徴として、資料が述べるのは？",
+    "choices": [
+      "強い渋みと酸味",
+      "炭酸の強い泡",
+      "味がきれいで繊細な上に、果物のような芳香を持つこと",
+      "濃い褐色の色"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "高精白米、突き破精のこうじ、香気成分を作る酵母、低温発酵などで、果物風の芳香が生まれます。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "吟醸酒の華やかな香りを何と呼ぶ？",
+    "choices": [
+      "燗香",
+      "木香",
+      "米香",
+      "吟醸香（吟香）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "吟醸香（吟香）は、吟醸造りによって生まれる華やかな香りです。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "貯蔵による日本酒の変化として、資料が述べるのは？",
+    "choices": [
+      "香味が調和し、日本酒らしい味になる（熟成）",
+      "必ずアルコールが消える",
+      "必ず色が透明になる",
+      "必ず炭酸が入る"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "貯蔵によって香味が調和し、日本酒らしい味になるとされます。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "木製の樽で貯蔵し、木の香りが付いた清酒に表示できる言葉は？",
+    "choices": [
+      "生一本",
+      "樽酒",
+      "原酒",
+      "生酒"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "樽酒は、木製の樽で貯蔵し、木香のついた清酒に表示できます。販売時に木製容器に入っているかは問いません。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "江戸中期に燗酒が一般に広まった背景として、資料が挙げる書物は？",
+    "choices": [
+      "『古事記』",
+      "『日本書紀』",
+      "貝原益軒の『養生訓』",
+      "『万葉集』"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "『養生訓』の「温酒を飲むべし」という考えが伝わり、燗をする道具や猪口が出回って、庶民も燗をするようになったといわれます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "戦国時代の宣教師ルイス・フロイスが書き送った内容として、資料に引かれるのは？",
+    "choices": [
+      "日本の酒は必ず氷で冷やして飲む",
+      "日本には酒がない",
+      "日本の酒は炭酸入りである",
+      "ヨーロッパでは酒を冷やすが、日本では酒を温める"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "フロイスは「我々は酒を冷やすが、日本では酒を温める」といった情報を本国に書き送りました。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "近年、日本酒の飲み方の傾向として資料が挙げるのは？",
+    "choices": [
+      "冷やして飲む製品が増加した",
+      "全て熱燗になった",
+      "全て氷入りになった",
+      "常温では飲まなくなった"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "生酒、にごり酒、スパークリング清酒、長期熟成酒など多様化が進み、冷やして飲む製品が増加しました。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酵母が活動できる高いアルコール度数の中で、酵母を助けるとされる物質は？",
+    "choices": [
+      "酒粕",
+      "こうじの複合タンパク質（プロテオリピッド）",
+      "糠",
+      "乳酸菌"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "こうじの複合タンパク質プロテオリピッドが、酵母のアルコール耐性を強くしているとされます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "原酒とは、どんな清酒？",
+    "choices": [
+      "必ず加熱しない清酒",
+      "必ず精米歩合50％以下の清酒",
+      "製成後、加水調整（アルコール分1％未満の範囲を除く）をしない清酒",
+      "必ず炭酸入りの清酒"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "原酒は、製成後に水を加えてアルコール分などを調整しない清酒です。アルコール分1％未満の加水は差し支えありません。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "かつて、江戸時代に酒を温める習慣を広めたとされる酒器は？",
+    "choices": [
+      "ワイングラス",
+      "ビアジョッキ",
+      "コーヒーカップ",
+      "猪口"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "燗をする道具や猪口が出回り、庶民が燗をするようになったといわれます。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒は、他の酒類と同じ「醸造酒」である。醸造酒の説明として正しいのは？",
+    "choices": [
+      "蒸留をしていない酒",
+      "蒸留して造る酒",
+      "果実だけを原料とする酒",
+      "必ず炭酸を含む酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "資料は、日本酒を蒸留をしていない酒（醸造酒）として説明しています。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "米こうじを使った酒造りの最初の記載がある、奈良時代の書物は？",
+    "choices": [
+      "『枕草子』",
+      "『播磨国風土記』",
+      "『源氏物語』",
+      "『徒然草』"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "716年（霊亀2年）の『播磨国風土記』に、カビの生えた米で酒を造った記載があります。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "奈良時代から平安時代の朝廷で、酒や酢を造る役所は？",
+    "choices": [
+      "酒税局",
+      "醸造試験所",
+      "造酒司",
+      "酒屋座"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "『令集解』には、酒、醴、酢を造る役所として造酒司の記載があります。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "1444年に起きた、酒屋とこうじ座の武力衝突を何という？",
+    "choices": [
+      "応仁の乱",
+      "島原の乱",
+      "明暦の大火",
+      "文安の麴騒動"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "この事件でこうじ座が崩壊し、酒屋が一貫して造る今日の酒造り形態が生まれたとされます。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "室町時代に寺院で造られ、高く評価された酒の総称は？",
+    "choices": [
+      "僧坊酒",
+      "地廻り酒",
+      "下り酒",
+      "寒酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "僧坊酒は寺院で造られた酒で、その最盛期は16世紀（戦国時代）でした。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "こうじ米にも白米を使う、僧坊酒で見られた酒造りを何という？",
+    "choices": [
+      "片白",
+      "諸白",
+      "濁酒",
+      "練貫"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "こうじ米と掛け米の両方に白米を使うのが諸白で、酒の質を高めました。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "江戸幕府が1657年に酒造りを免許制にした制度は？",
+    "choices": [
+      "級別制度",
+      "座役制度",
+      "酒株（酒造株）制度",
+      "杜氏免許制度"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "酒株は、酒造人を指定して酒を造る権利を保障するとともに、使用米の上限を定める制度でした。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "江戸時代に秋彼岸頃からの新酒造りが禁止されたこともあり、集中していった酒造りは？",
+    "choices": [
+      "夏造り",
+      "四季醸造",
+      "春造り",
+      "寒造り"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "新酒造りの禁などを背景に、徐々に寒造りへ集中したと考えられます。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "1871年（明治4年）の廃藩置県の後、酒造に起きた変化は？",
+    "choices": [
+      "酒株制度が実質的に廃止され、酒造免許を取得できるようになった",
+      "酒造りが全面的に禁止された",
+      "酒が全て専売制になった",
+      "杜氏制度が法律で定められた"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "全国で地主などによる酒造場の創立が相次ぎ、1881年には27,702場の記録があります。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "明治時代後期に登場した日本酒の容器は？",
+    "choices": [
+      "缶",
+      "一升瓶",
+      "ペットボトル",
+      "紙パック"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "一升瓶は明治時代後期に登場しましたが、量り売りも第二次世界大戦後まで続きました。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "1943年（昭和18年）に国内でも始められた日本酒の製造方法は？",
+    "choices": [
+      "蒸留酒の混和",
+      "ホップの添加",
+      "もろみへのアルコール添加",
+      "砂糖水の仕込み"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "酒不足に対応するため、清酒もろみへのアルコール添加が国内でも始められました。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "戦後に行われ、2006年の酒税法改正で清酒の定義から外れた製造方法は？",
+    "choices": [
+      "段仕込み",
+      "火入れ",
+      "割水",
+      "増醸法（三倍増醸）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "増醸法は、アルコールとともに糖類や有機酸などを添加する製造方法で、2006年の酒税法改正後は製造されなくなりました。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "戦中に始まった日本酒の「級別制度」で、1989年にまず廃止された級は？",
+    "choices": [
+      "特級",
+      "一級",
+      "二級",
+      "三級"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "級別制度は、1989年にまず特級が廃止され、1992年に完全に廃止されました。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「吟醸」という言葉の初出とされる書物は？",
+    "choices": [
+      "『養生訓』",
+      "『酒造のともしび』（岸五郎）",
+      "『日本書紀』",
+      "『童蒙酒造記』"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "「吟醸」は1894年に新潟県の岸五郎氏が著した『酒造のともしび』が初出とされます。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「清酒の製法品質表示基準」が適用された年月は？",
+    "choices": [
+      "昭和30年1月",
+      "令和5年1月",
+      "平成2年（1990年）4月",
+      "平成10年10月"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "平成元年11月に国税庁告示第8号として定められ、平成2年4月から適用されています。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "令和5年（2023年）1月1日に施行された改正で、任意記載事項になった項目は？",
+    "choices": [
+      "原材料名",
+      "精米歩合",
+      "アルコール分",
+      "製造時期"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "製造時期の表示は、必要記載事項から任意記載事項に変わりました。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "改正により、可能になった表示の組み合わせ（複合表示）の例は？",
+    "choices": [
+      "生原酒",
+      "超最高酒",
+      "官公庁推奨酒",
+      "世界一酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "生酒と原酒など、「生原酒」「生貯蔵原酒」といった複合表示ができるようになりました。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "製成後、一切加熱処理をしない清酒に表示できる言葉は？",
+    "choices": [
+      "生貯蔵酒",
+      "生酒",
+      "生一本",
+      "原酒"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "生酒は、製成後に一切加熱処理をしない清酒に表示できます。生酒には保存・飲用上の注意事項を記載します。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "製成後は加熱せずに貯蔵し、出荷の際に加熱処理した清酒に表示できる言葉は？",
+    "choices": [
+      "生酒",
+      "原酒",
+      "生貯蔵酒",
+      "樽酒"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "生貯蔵酒は、加熱処理をしないで貯蔵し、出荷の際に加熱処理した清酒です。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "一般的な清酒（生酒・生貯蔵酒以外）は、通常、製成後に何回加熱処理をする？",
+    "choices": [
+      "1回も行わない",
+      "10回",
+      "毎日1回",
+      "貯蔵前と出荷前の2回"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "生酒・生貯蔵酒以外の清酒は、貯蔵する前と出荷する前の2回、加熱処理をするのが通常です。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「生一本」と表示できる清酒は？",
+    "choices": [
+      "ひとつの製造場だけで醸造した純米酒",
+      "全て生酒のもの",
+      "精米歩合が50％以下のもの",
+      "樽で貯蔵したもの"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "生一本は、単一の製造場のみで醸造した純米酒に表示できます。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "清酒の産地名を表示できるのは、どんな場合？",
+    "choices": [
+      "原料米の一部がその産地産の場合",
+      "その清酒の全部がその産地で醸造された場合",
+      "その産地で瓶詰めしただけの場合",
+      "どんな場合でも"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "産地が異なるものをブレンドした清酒には、産地名を表示できません。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "貯蔵年数を表示するとき、端数はどうする？",
+    "choices": [
+      "切り上げる",
+      "四捨五入する",
+      "1年未満を切り捨てる",
+      "月数で表示する"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "貯蔵年数は、1年未満の端数を切り捨てた年数で表示します。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「日本酒」と表示してよいのは、どんな清酒？",
+    "choices": [
+      "輸入米を主に使ったもの",
+      "日本人が飲むものなら全て",
+      "大吟醸酒だけ",
+      "原料の米に国内産米のみを使い、日本国内で製造されたもの"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "原料の米に国内産米のみを使い、かつ日本国内で製造された清酒に限り「日本酒」と表示できます。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "容器に「最高」「第一」「代表」などの最上級を意味する用語を表示することは？",
+    "choices": [
+      "禁止されている",
+      "自由にできる",
+      "大吟醸酒に限りできる",
+      "海外向けに限りできる"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "清酒の製法・品質等が業界で最上級を意味する用語は、表示禁止事項です。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "品評会等で受賞したものであるかのように誤認させる用語は？",
+    "choices": [
+      "必ず表示する",
+      "表示してはいけない",
+      "自由に表示できる",
+      "貯蔵年数と併記すればよい"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "「品評会等で受賞したものであるかのように誤認させる用語」と、官公庁が推奨しているかのように誤認させる用語は表示禁止事項です。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "清酒の表示に使う文字の大きさは、原則として何ポイント以上？",
+    "choices": [
+      "2ポイント",
+      "30ポイント",
+      "8ポイント",
+      "規定なし"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "必要記載事項は、原則として8ポイント以上の日本文字で表示します。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "清酒に必ず表示される事項として、資料に挙がるのは？",
+    "choices": [
+      "蔵人の人数",
+      "酵母の産地",
+      "精米した日の天気",
+      "アルコール分"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "製造者名、製造場の所在地、内容量、「清酒」の表示、アルコール分などが必ず表示されます。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "保存や飲用上の注意事項を表示する必要がある清酒の例は？",
+    "choices": [
+      "製成後、加熱処理をしないで出荷する清酒（生酒など）",
+      "全ての大吟醸酒",
+      "全ての純米酒",
+      "全ての樽酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "生酒のように加熱しないで出荷する清酒には、保存または飲用上の注意事項を記載します。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「極上」「優良」「高級」などの用語を表示できるのは、どんなとき？",
+    "choices": [
+      "他社の酒と比べるとき",
+      "自社に同一種別・銘柄が複数あり、客観的に説明できるとき",
+      "いつでも",
+      "全く使えない"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "これらは自社の清酒のランク付けとして使えますが、他社の清酒と比較するためには使えません。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒は、どんな飲み方ができる世界でも珍しいお酒だと紹介されている？",
+    "choices": [
+      "必ず常温で飲む",
+      "必ず氷を入れて飲む",
+      "燗してもよく、冷やしてもよい",
+      "必ず温めて飲む"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "日本酒造組合中央会は、日本酒を「燗してよし、冷やしてよし」という世界でも珍しいお酒と紹介しています。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の特徴",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/characteristics-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の飲用温度の幅として、日本酒造組合中央会が紹介する範囲は？",
+    "choices": [
+      "−20℃〜0℃",
+      "60℃〜100℃",
+      "20℃〜25℃だけ",
+      "5℃〜55℃くらい"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "他の酒類と比べて幅が広く、5℃〜55℃位までの広い範囲にわたるとされています。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の特徴",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/characteristics-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "一般に「美味しい」といわれるお燗の温度帯として紹介されているのは？",
+    "choices": [
+      "人肌燗（35〜40℃）〜上燗（45〜50℃）",
+      "雪冷え（5℃）〜花冷え（10℃）",
+      "80℃〜100℃",
+      "10℃〜15℃だけ"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "お燗の温度は好み次第ですが、一般には人肌燗から上燗までが美味しいといわれます。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "お燗の習慣が一般的になったのは、いつ頃からとされる？",
+    "choices": [
+      "奈良時代",
+      "江戸時代中期以降",
+      "明治時代以降",
+      "平成以降"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "日本酒造組合中央会は、お燗の習慣が江戸時代中期以降に一般的になったと紹介しています。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「雪冷え」は、どんな状態の日本酒？",
+    "choices": [
+      "お湯で温めて湯気が立つ状態",
+      "室温に近い状態",
+      "酒瓶を冷やし、表面に結露が生じている状態",
+      "体温と同じくらいの状態"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "雪冷えは、香りがあまり立たず、冷たい口当たりになる温度です。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「花冷え」は、どんな特徴の温度？",
+    "choices": [
+      "湯気が立ち、香りがシャープになる",
+      "熱さも冷たさも感じない",
+      "持てないほど熱い",
+      "瓶から冷たさを感じ、飲むうちに香りが徐々に広がる"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "花冷えは、注いだ直後は弱く感じる香りが、飲むうちに徐々に広がる印象の温度です。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「涼冷え」は、どんな状態？",
+    "choices": [
+      "冷蔵庫から出してしばらく経った状態",
+      "氷水に浸けた状態",
+      "沸騰直前まで温めた状態",
+      "凍らせた状態"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "涼冷えは、飲んだときにはっきりとした冷たさを感じる温度で、香りの華やかさや味わいのとろみを感じるとされます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の温度の呼び名で、日本家屋の土間の温度とされているのは？",
+    "choices": [
+      "飛びきり燗",
+      "室温",
+      "雪冷え",
+      "上燗"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "室温は、徳利を持つとほんのり冷たさが伝わる温度で、日本家屋の土間の温度とされています。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「日向燗」は、どんな温度？",
+    "choices": [
+      "持てないほど熱い",
+      "結露するほど冷たい",
+      "飲んだとき、熱さも冷たさも感じない",
+      "氷点下に近い"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "日向燗は、酒の香りが引き立ち、なめらかな味わいになるとされます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「人肌燗」は、飲んだときにどう感じる温度？",
+    "choices": [
+      "「熱い」と感じる",
+      "「冷たい」と感じる",
+      "何も感じない",
+      "「ぬるい」と感じる"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "人肌燗は、米やこうじの良い香りが楽しめ、さらりとした味わいになるとされます。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「ぬる燗」で、香りと味わいはどうなるとされる？",
+    "choices": [
+      "香りが最も豊かになり、味わいに膨らみを感じる",
+      "香りが全く立たなくなる",
+      "必ず辛口になる",
+      "必ず甘くなる"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "ぬる燗は、「熱い」より「温かい」と感じ、体温と同じくらいの印象の温度です。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「上燗」で、徳利やおちょこを持つとどう感じる？",
+    "choices": [
+      "冷たく感じる",
+      "やや熱さを感じ、注ぐと湯気が立つ",
+      "何も感じない",
+      "持てないほど熱い"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "上燗は、酒の香りが引き締まり、味に柔らかさと引き締まりが感じられるとされます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「あつ燗」で、香りと味わいはどうなるとされる？",
+    "choices": [
+      "香りがなくなり、甘くなる",
+      "香りが華やかになり、とろみが出る",
+      "香りがシャープになり、切れ味の良い辛口になる",
+      "変化はない"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "あつ燗は、徳利から湯気が立ち、持つと熱く感じる温度です。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「飛びきり燗」は、どんな温度？",
+    "choices": [
+      "ほとんど冷たい",
+      "体温と同じくらい",
+      "室温と同じ",
+      "持てないほどではないが、持った直後にかなり熱く感じる"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "飛びきり燗は、酒の香りが強くなり、辛口になるとされます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "鍋でお燗を付ける方法として、紹介されているのは？",
+    "choices": [
+      "沸騰直前までお湯を沸かして火を止め、酒器を首まで浸す",
+      "酒を直火で煮立てる",
+      "酒に氷を入れて混ぜる",
+      "酒を冷凍庫で冷やす"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "酒を酒器に入れ、火を止めた湯に首まで浸して、1分ほど、または好みの温度になるまで温めます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒を4タイプに分けるとき、使う2つの軸は？",
+    "choices": [
+      "色の濃淡と、米の産地",
+      "香りの高低と、味の若々しさ・濃厚さ",
+      "アルコール度数と、瓶の形",
+      "蔵の創業年と、精米歩合"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "香りが高いか低いか、味が若々しいか濃厚かの2つの軸で、日本酒を4つのタイプに分けられます。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の味と香り",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/flavor-and-aroma-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "4タイプのうち、飲用適温帯が最も広いと紹介されているのは？",
+    "choices": [
+      "軽快でなめらかタイプ",
+      "フルーティーなタイプ",
+      "コクのあるタイプ",
+      "どれも同じ"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "コクのあるタイプは、10〜45℃と最も広く、品温によって最も楽しい変化を見せるとされます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「軽快でなめらかタイプ」の飲用適温帯として紹介されているのは？",
+    "choices": [
+      "40〜60℃",
+      "10〜45℃",
+      "常温のみ",
+      "6〜10℃、もしくは氷温近辺（適温帯は狭い）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "軽快でなめらかタイプは、飲用適温帯が狭いタイプとされています。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒は、ワインやビールと比べて、どんな特徴があると紹介されている？",
+    "choices": [
+      "ワインより酸味が少なく旨味が多い",
+      "ワインより酸味が非常に強い",
+      "ビールより苦味が強い",
+      "旨味が全くない"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "日本酒は、ビールより苦味が少なく複雑な味わいで、ワインより酸味が少なく旨味が多いとされます。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の特徴",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/characteristics-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒に防腐剤が入っているかについて、日本酒造組合中央会の説明は？",
+    "choices": [
+      "必ず入っている",
+      "防腐剤は入っていない",
+      "夏だけ入れる",
+      "大吟醸にだけ入れる"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "日本酒の特徴の一つとして、「防腐剤は入っていない」と紹介されています。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の特徴",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/characteristics-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒を炭酸水で割った、爽やかな飲み方は？",
+    "choices": [
+      "燗ロック",
+      "日本酒シャーベット",
+      "酒セルツァー",
+      "和らぎ水"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "セルツァードリンク（アルコール入り炭酸水）を日本酒で試す飲み方が、紹介されています。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒をオンザロックにして、ライムを使ったものは？",
+    "choices": [
+      "燗ロック",
+      "酒ハイボール",
+      "雪割り酒",
+      "サムライ・ロック"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "日本酒は一般に酸味が不足していると言われるため、柑橘の酸で補う飲み方として紹介され、ライムがとりわけ合うとされます。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒を凍らせて、シャーベット状にして楽しむ飲み方は？",
+    "choices": [
+      "日本酒シャーベット",
+      "燗ロック",
+      "サムライ・ロック",
+      "にごり酒ミルク"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "グラスに日本酒を注いでラップをし、時々かき混ぜながら4〜5時間冷凍すると、シャーベット状になります。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「お猪口」という名前の語源は？",
+    "choices": [
+      "「グイグイ飲む」",
+      "「ちょこっと飲む」",
+      "「とくとく注ぐ音」",
+      "「お銚子の子」"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "お猪口は、一口で飲めるようなタイプのお酒に向く、小さな酒器です。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「ぐい呑み」は、お猪口と比べてどう？",
+    "choices": [
+      "一回り小さい",
+      "注ぎ口が片方だけにある",
+      "一回り大きく、飲み口が大きい分、香りも楽しめる",
+      "湯せん専用の金属製"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "ぐい呑みは「グイグイ飲む」が語源とされています。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「徳利」の名前の由来とされるのは？",
+    "choices": [
+      "「ちょこっと飲む」",
+      "「グイグイ飲む」",
+      "「湯に浸ける」",
+      "「とくり、とくり」と注ぐ音"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "徳利は、お猪口と並んで日本酒の酒器として思い浮かぶものです。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "片方だけに注ぎ口がついている酒器は？",
+    "choices": [
+      "片口",
+      "ちろり",
+      "升",
+      "ベク杯"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "片口は、徳利より注ぎ口が大きいので、香りを楽しめるとされています。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「湯燗」で楽しむときに使う酒器として紹介されているのは？",
+    "choices": [
+      "升",
+      "ちろり",
+      "ワイングラス",
+      "ぐい呑み"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "ちろりは、熱が伝わりやすい素材でできていることが多い酒器です。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "取っ手と蓋があり、元々は熱燗のために作られた酒器は？",
+    "choices": [
+      "ぐい呑み",
+      "盃",
+      "お銚子",
+      "升"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "お銚子は、金属製が主流でしたが、今では金属・木製・陶器などさまざまな素材があります。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "もともとはお酒の量を測るために生まれた容器は？",
+    "choices": [
+      "盃",
+      "徳利",
+      "ちろり",
+      "升"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "升からそのまま飲んだり、升の中にグラスを入れたりして楽しむ場面で見られます。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "高知県発祥の、まっすぐ立たない遊び心のある酒器は？",
+    "choices": [
+      "ベク杯",
+      "片口",
+      "ちろり",
+      "お銚子"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "ベク杯は、真っ直ぐ立たず、飲みきるまでテーブルに置けない酒器です。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "結婚式やお正月など、行事でよく目にする酒器は？",
+    "choices": [
+      "ちろり",
+      "盃",
+      "升",
+      "片口"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "盃は、もちろん日常的に使っても大丈夫で、最近ではいろいろなタイプがあります。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の楽しみ方として、日本酒造組合中央会が大切だとするのは？",
+    "choices": [
+      "必ず1種類だけを飲み続けること",
+      "料理とは別々に飲むこと",
+      "どんな日本酒があるかを知り、料理と合わせて楽しむこと",
+      "必ず氷を入れること"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "ただ「おいしい」で済ませず、日本酒のタイプを知って料理と合わせることが大切とされています。",
+    "difficulty": "Easy",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の味と香り",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/flavor-and-aroma-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "フルーティなタイプの日本酒と好相性として紹介されている料理は？",
+    "choices": [
+      "強い旨味の高タンパクな料理",
+      "鶏肉・豚肉の旨味を生かした料理",
+      "必ず甘いデザート",
+      "山菜や魚介など、食材の味を活かした料理"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "フルーティなタイプは、山菜や魚介など素材の味を活かした料理と好相性とされています。",
+    "difficulty": "Medium",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の味と香り",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/flavor-and-aroma-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "軽快でなめらかなタイプの日本酒と好相性として紹介されている料理は？",
+    "choices": [
+      "あっさりとして、後味が軽い料理",
+      "こってりとした脂の多い料理",
+      "強い旨味の高タンパクな料理",
+      "非常に辛い料理"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "軽快でなめらかなタイプは、あっさりとして後味が軽い料理と好相性とされています。",
+    "difficulty": "Medium",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の味と香り",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/flavor-and-aroma-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "熟成タイプの日本酒と好相性として紹介されている料理は？",
+    "choices": [
+      "あっさりした山菜の料理",
+      "強い旨味を味わう、高タンパクな食材の料理",
+      "果物だけの料理",
+      "水だけの料理"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "熟成タイプは、強い旨味を味わう、高タンパクな食材の料理と好相性とされています。",
+    "difficulty": "Hard",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の味と香り",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/flavor-and-aroma-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "コクのあるタイプの日本酒と好相性として紹介されている料理は？",
+    "choices": [
+      "あっさりした山菜の料理",
+      "素材の味だけを活かした刺身",
+      "鶏肉・豚肉・牛乳などの旨味を生かした料理",
+      "味付けのない野菜"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "コクのあるタイプは、鶏肉、豚肉、牛乳などの旨味を生かした料理と好相性とされています。",
+    "difficulty": "Hard",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の味と香り",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/flavor-and-aroma-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒を飲みながら飲む水のことを何という？",
+    "choices": [
+      "仕込み水",
+      "割水",
+      "迎え水",
+      "和らぎ水"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "和らぎ水は、酔いを和らげる水の意味で、洋酒のチェイサーのようなものです。",
+    "difficulty": "Easy",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 和らぎ水のすすめ",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/yawaragi-mizu/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "和らぎ水を飲むことで期待されるとして紹介されているのは？",
+    "choices": [
+      "酔いの速度が緩やかになり、飲みすぎにくくなる",
+      "酒が必ず強くなる",
+      "酒が必ず甘くなる",
+      "酔いが早く回る"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "水を飲むことでアルコール分が下がり、酔いの速度が緩やかになり、ひと呼吸置くので飲みすぎにくくなります。",
+    "difficulty": "Medium",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 和らぎ水のすすめ",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/yawaragi-mizu/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "和らぎ水にすすめられている水として挙がっているのは？",
+    "choices": [
+      "炭酸入りのジュース",
+      "日本酒の源である仕込み水",
+      "お湯だけ",
+      "別の酒"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "特定の銘柄はありませんが、おいしい水であることが条件で、仕込み水を選ぶのもおすすめとされています。",
+    "difficulty": "Hard",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 和らぎ水のすすめ",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/yawaragi-mizu/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "合間に水を飲むと、料理の味がどうなると紹介されている？",
+    "choices": [
+      "味が全く分からなくなる",
+      "料理が冷める",
+      "口の中がリフレッシュされ、次の一杯や料理の味が鮮明になる",
+      "酒が薄くなって捨てるしかない"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "合間の水で口の中をリフレッシュすると、舌の感覚を鈍らせないので、次の一杯や料理の味を鮮明にします。",
+    "difficulty": "Hard",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 和らぎ水のすすめ",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/yawaragi-mizu/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒が多くの料理と好相性だと紹介される一方、各地の酒は何に合うことが基本だとされる？",
+    "choices": [
+      "外国の料理",
+      "その年の流行",
+      "季節に関係のない一定の味",
+      "その地域の食習慣"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "全国に残る酒蔵の酒は、地域の食習慣に合うことが基本になっているとされています。",
+    "difficulty": "Medium",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒と文化",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-culture/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒造組合中央会が、白身魚が多い地域として挙げるのは？",
+    "choices": [
+      "瀬戸内海沿岸",
+      "太平洋側の沿岸",
+      "日本海沿岸",
+      "内陸部"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "赤みの魚が多い太平洋側、白身魚の多い瀬戸内海沿岸、冬に油の乗った魚が獲れる日本海沿岸、保存食の発達した内陸部と、地域で食文化が異なります。",
+    "difficulty": "Hard",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒と文化",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-culture/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "秋から冬にかけての風物詩として、日本酒と合わせる料理に挙がっているのは？",
+    "choices": [
+      "そうめん",
+      "鍋",
+      "かき氷",
+      "冷やし中華"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "鍋に日本酒は、秋から冬の風物詩で、鍋に日本酒を入れることで味も上がるとされています。",
+    "difficulty": "Easy",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "次のうち、日本酒と同じ「醸造酒」に分類されるのは？",
+    "choices": [
+      "ウイスキー",
+      "焼酎",
+      "ビール",
+      "ウォッカ"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "醸造酒には日本酒・ビール・ワインが、蒸留酒には焼酎・泡盛・ウイスキーなどが入ります。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の原料として紹介されているものは？",
+    "choices": [
+      "麦・ホップ・水",
+      "ぶどう・水",
+      "芋・砂糖",
+      "米・米こうじ・水（醸造アルコールを加えるものもある）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "日本酒の原料は米、米こうじ、水で、醸造アルコールを加えるものもあります。原料の要は米こうじです。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の特徴",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/characteristics-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の原料の「要」とされるものは？",
+    "choices": [
+      "米こうじ",
+      "醸造アルコール",
+      "ホップ",
+      "砂糖"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "日本酒造組合中央会は、原料の要となるのは米こうじと紹介しています。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の特徴",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/characteristics-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒税法で、清酒の定義に必ず入れなければならない工程は？",
+    "choices": [
+      "蒸留する工程",
+      "こす（濾す）工程",
+      "炭酸を加える工程",
+      "樽に詰める工程"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "酒税法では、清酒は必ず米を使い、「こす」という工程を必ず入れることが定義づけられています。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒税法による清酒の定義で、アルコール分はどう定められている？",
+    "choices": [
+      "1度未満",
+      "50度以上",
+      "22度未満",
+      "10度未満"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "清酒は、米、米こうじ、水を原料として発酵させてこしたもので、アルコール分が22度未満のものです。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒税法で、「酒類」と呼ばれるのは、アルコール分がどのくらいの飲料？",
+    "choices": [
+      "10度以上",
+      "20度以上",
+      "0.1度以上",
+      "1度以上"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "酒類とは、アルコール分1度以上の飲料であると、酒税法第2条第1項に規定されています。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「特定名称酒」以外の日本酒を何という？",
+    "choices": [
+      "普通酒",
+      "純米酒",
+      "生酒",
+      "原酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "特定名称酒以外の日本酒は普通酒と呼ばれます。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "特定名称酒の「原料による3つの分類」は？",
+    "choices": [
+      "生酒・原酒・樽酒",
+      "吟醸酒・純米酒・本醸造酒",
+      "大吟醸・中吟醸・小吟醸",
+      "辛口・甘口・中口"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "原料で主に3つに分類され、さらに精米歩合などにより8つに分類されます。",
+    "difficulty": "Medium",
+    "category": "grade",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の段仕込みで、初添えの次の日は、どうする？",
+    "choices": [
+      "2回目の仕込みをする",
+      "もろみを搾る",
+      "仕込みを休む（この間、酵母が増える「踊り」）",
+      "火入れをする"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "1日目に初添え、2日目は休み（踊り）、3日目に仲添え、4日目に留添えをして、仕込みが完了します。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "段仕込みは、何のための独特な方法とされている？",
+    "choices": [
+      "お酒を甘くするため",
+      "お酒を透明にするため",
+      "米の使用量を減らすため",
+      "雑菌の繁殖を抑えつつ酵母の増殖を促し、温度管理をしやすくする"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "段仕込みは、三段階に分けて仕込む日本酒造りの特徴です。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "発酵を終えたもろみを搾って、できるものは？",
+    "choices": [
+      "酒と酒粕",
+      "酒と炭酸水",
+      "酒と酢",
+      "酒とみりん"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "二十日ほどかけて発酵を終えたもろみは、圧搾機で搾られて酒と酒粕に分けられます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "ワインの製造で、日本酒のような糖化が必要ない理由は？",
+    "choices": [
+      "ぶどうに酵母が含まれないため",
+      "ぶどうの果汁にすでに多くの糖分が含まれているため",
+      "ぶどうは蒸さないため",
+      "ワインは発酵しないため"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "ビールは発芽時に活性化する酵素で糖化し、日本酒は麹菌の酵素で糖化します。",
+    "difficulty": "Medium",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "並行複発酵が、糖化と発酵を別々に行うより優れている点として紹介されているのは？",
+    "choices": [
+      "必ず甘くなる",
+      "必ず色が濃くなる",
+      "腐敗のリスクが低く、アルコール度数も高くなる",
+      "必ず炭酸が入る"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "糖化とアルコール発酵を別々に行うよりも、腐敗リスクが低く、アルコール度数も高くなるとされています。",
+    "difficulty": "Hard",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の歴史",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/history-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本では、約何年前から米を原料にして酒を醸してきたとされる？",
+    "choices": [
+      "約50年",
+      "約200年",
+      "約20,000年",
+      "約2,000年"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "日本酒造組合中央会は、米を原料に酒を醸すという根本の共通性で考えると、約2,000年の歴史があると紹介しています。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の歴史",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/history-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "麹菌が使われる前、米を噛むことで糖にしていた酒を何という？",
+    "choices": [
+      "口噛み酒",
+      "どぶろく",
+      "甘酒",
+      "濁り酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "米を噛むと、口の中のアミラーゼでデンプンが糖に変わります。麹菌が使われるようになったのは4世紀ごろとされます。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の歴史",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/history-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "今とほぼ同じスタイルの日本酒の製造方法は、いつ頃までに確立したとされる？",
+    "choices": [
+      "縄文時代",
+      "江戸時代中期（約18世紀ごろ）まで",
+      "明治時代",
+      "平成時代"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "蒸し米に麹菌を繁殖させ、酒母を作り、段仕込みで発酵を進める方法が、江戸時代中期までに確立しました。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の歴史",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/history-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "10月1日は何の日？",
+    "choices": [
+      "酒税の日",
+      "杜氏の日",
+      "日本酒の日",
+      "酒蔵の日"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "「酉」の字は壺を表し、酒を意味しました。新米が収穫されて酒造りが始まることから、10月1日が日本酒の日とされています。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "秋に出荷される「ひやおろし」の説明として正しいのは？",
+    "choices": [
+      "夏に造り、すぐに出荷したもの",
+      "氷で冷やして造ったもの",
+      "秋に搾って、その日のうちに飲むもの",
+      "夏を越して熟成し、火入れをせずに出荷したもの（外気と酒の温度が同じくらいの頃に出荷）"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "冬から春に造られた新酒が蔵で熟成し、外気が冷えて酒の温度と同じくらいになった頃、火入れをせずに出荷したものとされています。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「鏡開き」の「鏡」は、何から名づけられた？",
+    "choices": [
+      "酒樽の蓋が丸くて平らなこと",
+      "樽の中が透明なこと",
+      "水面に顔が映ること",
+      "酒の色"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "酒樽の蓋が丸くて平らなことから鏡と呼ばれ、日本酒の鏡開きがおめでたい席で行われます。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "結婚式などで行われる、大小三種類の盃に酒を注ぎ、三口ずつ飲む儀礼を何という？",
+    "choices": [
+      "鏡開き",
+      "三三九度",
+      "雪見酒",
+      "花見酒"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "三三九度は盃事の一つで、縁起のよい「三」が選ばれています。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒と文化",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-culture/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "神様へのお供え物（神饌）に欠かせないものとして挙がる三種類は？",
+    "choices": [
+      "魚・野菜・果物",
+      "塩・水・味噌",
+      "御酒・御飯・御餅",
+      "肉・卵・牛乳"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "三種類とも原料に米が使われています。",
+    "difficulty": "Hard",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒と文化",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-culture/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "お酒の地理的表示（GI）で、産地名を独占的に名乗れるようになるには？",
+    "choices": [
+      "誰でも自由に名乗れる",
+      "毎年、抽選で決まる",
+      "海外の団体の許可を得る",
+      "産地が申請し、国税庁長官の指定を受ける"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "GIは、地域の共有財産である産地名を守り、適切な使用を促す制度です。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の地理的表示（GI）",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/gi/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "GI「はりま」の清酒に使われる酒米は？",
+    "choices": [
+      "兵庫県産の山田錦",
+      "新潟県産の五百万石",
+      "長野県産の美山錦",
+      "岡山県産の雄町"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "GI「はりま」は、兵庫県産山田錦により醸されるGIと紹介されています。",
+    "difficulty": "Hard",
+    "category": "region",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "GI「岩手」の紹介で、日本最大の杜氏集団として挙がるのは？",
+    "choices": [
+      "越後杜氏",
+      "南部杜氏",
+      "能登杜氏",
+      "丹波杜氏"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "GI「岩手」は、日本最大の杜氏集団である「南部杜氏」の技術と紹介されています。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の地理的表示（GI）",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/gi/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "GI「白山」は、清酒の地理的表示として、どんな位置づけ？",
+    "choices": [
+      "最も新しく指定された",
+      "海外で初めて指定された",
+      "日本で初めて指定された",
+      "指定が取り消された"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "GI「白山」は、日本で初めて清酒の地理的表示として指定されました。",
+    "difficulty": "Medium",
+    "category": "region",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「日本酒」の地理的表示における定義は？",
+    "choices": [
+      "外国産米を使った清酒も含む",
+      "海外で造られた清酒も含む",
+      "純米大吟醸だけ",
+      "原料米に国内産米のみを使い、日本国内で製造された清酒"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "外国産米を使ったものや、海外で造られたものは、「日本酒」とは定義付けられていません。",
+    "difficulty": "Medium",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "普通酒について、紹介されている例として正しいのは？",
+    "choices": [
+      "醸造アルコールの量が10％を超えるものなどがある",
+      "必ず精米歩合50％以下",
+      "必ず米だけで造る",
+      "必ず生酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "普通酒は、特定名称酒に使われているもの以外の原料を使ったり、醸造アルコール量が10％を超えたりするものなどです。",
+    "difficulty": "Hard",
+    "category": "grade",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒造りの最初の工程は？",
+    "choices": [
+      "お酒を瓶に詰めること",
+      "玄米を精米し、蒸すこと",
+      "もろみを搾ること",
+      "火入れをすること"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "日本酒造りは、原料の玄米を精米し、蒸すことから始まります。蒸し米は、こうじ・酒母・もろみに使われます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "玄米の表層を削ることを何という？",
+    "choices": [
+      "火入れ",
+      "上槽",
+      "精米",
+      "割水"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "玄米から表層を削った米が白米です。精米歩合は、白米の玄米に対する重量の割合を表します。",
+    "difficulty": "Easy",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "精米歩合50％と70％の米では、よく削られているのはどちら？",
+    "choices": [
+      "70％の米",
+      "どちらも同じ",
+      "比べられない",
+      "50％の米"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "精米歩合は残った割合なので、数字が小さい50％のほうが多く削られています。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "米の表層に多く含まれ、多すぎると香りや味を損なう成分は？",
+    "choices": [
+      "タンパク質・脂質・灰分",
+      "デンプンだけ",
+      "水だけ",
+      "糖だけ"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "米の表層部には、タンパク質、脂質、灰分などが多く含まれます。多すぎると日本酒の香りや味が悪くなります。",
+    "difficulty": "Easy",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "こうじ米以外の、もろみに掛ける蒸米を何という？",
+    "choices": [
+      "種米",
+      "掛け米",
+      "粕米",
+      "割米"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "総米は、こうじ米と掛け米を合わせたものです。",
+    "difficulty": "Easy",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "純米酒は、米と何を原料に造るお酒？",
+    "choices": [
+      "醸造アルコール",
+      "砂糖",
+      "米こうじ（と水）",
+      "ホップ"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "純米酒は、米、米こうじ、水だけを原料として造ります。醸造アルコールは加えません。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "次のうち、醸造アルコールを使わない特定名称酒は？",
+    "choices": [
+      "吟醸酒",
+      "大吟醸酒",
+      "本醸造酒",
+      "純米吟醸酒"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "「純米」が付く名称は、米と米こうじだけで造ります。吟醸酒・大吟醸酒・本醸造酒は、醸造アルコールを使うことができます。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "精米歩合の要件が低い（よく削る）のは、吟醸酒と大吟醸酒のどちら？",
+    "choices": [
+      "大吟醸酒",
+      "吟醸酒",
+      "どちらも同じ",
+      "どちらも要件がない"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "大吟醸酒は50％以下、吟醸酒は60％以下です。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒のラベルに「吟醸」「純米」と書かれているのは、何の呼び名？",
+    "choices": [
+      "普通酒",
+      "特定名称酒",
+      "合成酒",
+      "混成酒"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "精米歩合や原料などの条件を満たした日本酒が、特定名称酒と呼ばれます。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "米のデンプンを糖に変える働きをするのは？",
+    "choices": [
+      "乳酸",
+      "炭酸ガス",
+      "こうじ菌",
+      "酒粕"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "こうじ菌の酵素がデンプンを糖に分解します。その糖を酵母がアルコールに変えます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒母は、文字どおり何の「母」とされる？",
+    "choices": [
+      "米",
+      "水",
+      "麹",
+      "酒"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "酒母は、もろみの発酵を促す酵母を大量に培養したもので、「酒の母」といえます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "もろみの発酵にかかる日数として、紹介されているのは？",
+    "choices": [
+      "二十日ほど",
+      "約1日",
+      "約3か月",
+      "約1年"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "二十日ほどかけて発酵を終えたもろみが、圧搾機で搾られます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "精米から日本酒ができるまでに、かかる日数として紹介されているのは？",
+    "choices": [
+      "約3日間",
+      "約六十日間",
+      "約10年間",
+      "約1日間"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "精米から、並行複発酵、段仕込みなど複雑な工程を経て、約六十日間かけて日本酒は誕生します。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "蒸し米が使われる工程として、正しいのは？",
+    "choices": [
+      "火入れだけ",
+      "瓶詰めだけ",
+      "こうじ造り・酒母・もろみの仕込み",
+      "割水だけ"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "蒸し米は、こうじ造り、酒母、もろみの仕込みに使われます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酵母を大量に培養したものを何という？",
+    "choices": [
+      "酒粕",
+      "割水",
+      "種こうじ",
+      "酒母"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "酒母は蒸し米・水・こうじに酵母を加え、酵母を大量に培養したものです。",
+    "difficulty": "Easy",
+    "category": "yeastWater",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本の自然水は、海外の水と比べて、ほとんどどの部類に入る？",
+    "choices": [
+      "軟水",
+      "超硬水",
+      "海水",
+      "炭酸水"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "宮水は国内では硬度の高い部類ですが、それでも欧米の一般的な酒造用水より低いとされます。",
+    "difficulty": "Easy",
+    "category": "yeastWater",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "杜氏のもとで酒造りに従事する人を何という？",
+    "choices": [
+      "仲買",
+      "蔵人",
+      "問屋",
+      "行商人"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "杜氏・蔵人は、酒造りの専門職集団として江戸時代に誕生しました。",
+    "difficulty": "Easy",
+    "category": "region",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の歴史",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/history-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "灘五郷がある県は？",
+    "choices": [
+      "新潟県",
+      "秋田県",
+      "兵庫県",
+      "福岡県"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "灘五郷は兵庫県神戸市灘区、東灘区、芦屋市、西宮市にあたる地域です。",
+    "difficulty": "Easy",
+    "category": "region",
+    "sourceTitle": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "伏見は、どの府にある酒造りの産地？",
+    "choices": [
+      "大阪府",
+      "東京都",
+      "北海道",
+      "京都府"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "京都の伏見は、灘と並んで、明治以降に台頭した産地です。",
+    "difficulty": "Easy",
+    "category": "region",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "GI「白山」の産地がある県は？",
+    "choices": [
+      "石川県",
+      "兵庫県",
+      "新潟県",
+      "山形県"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "「白山」は石川県白山市を産地とする、清酒の地理的表示です。",
+    "difficulty": "Easy",
+    "category": "region",
+    "sourceTitle": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "温めて飲む日本酒を、何という？",
+    "choices": [
+      "冷酒",
+      "燗酒（お燗）",
+      "生酒",
+      "原酒"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "お燗の習慣は江戸時代中期以降に一般的になり、現在へと続いています。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒で「冷や」が意味する温度は？",
+    "choices": [
+      "氷点下",
+      "50℃以上",
+      "常温",
+      "冷凍"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "「冷や」とは常温を意味し、冷酒は冷蔵庫に入れたり、氷を入れたりしたお酒を指します。",
+    "difficulty": "Medium",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒にソーダを同量加えて、氷を入れる夏向きの飲み方は？",
+    "choices": [
+      "燗ロック",
+      "雪割り酒",
+      "ひれ酒",
+      "日本酒ハイボール"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "グラスにたっぷりの氷を入れ、日本酒を半分注ぎ、ソーダを同量注いで作ります。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "奈良・平安の時代から行われていた、桜の下で楽しむ酒は？",
+    "choices": [
+      "花見酒",
+      "雪見酒",
+      "ひれ酒",
+      "夏越しの酒"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "花見酒は、現在にも受け継がれる日本酒の楽しみ方です。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "雪を眺めながら飲む、風流な日本酒の楽しみ方は？",
+    "choices": [
+      "花見酒",
+      "雪見酒",
+      "ひやおろし",
+      "鏡開き"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "雪見酒は平安の頃、紫式部も行っていたと言われます。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "乾燥させたフグのヒレをあぶって、熱燗に注いだ酒は？",
+    "choices": [
+      "花見酒",
+      "桃花酒",
+      "ひれ酒",
+      "酒セルツァー"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "ひれ酒は、その香りが冬の味覚として愛飲されています。",
+    "difficulty": "Easy",
+    "category": "taste",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "年頭に一家そろって飲む、縁起のよいお酒は？",
+    "choices": [
+      "ひやおろし",
+      "酒ハイボール",
+      "桃花酒",
+      "お屠蘇"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "お屠蘇は中国の風習を取り入れたもので、平安初期に宮中で行われ、やがて民間に広まりました。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "酒税法で、日本酒に当たる酒類の名称は？",
+    "choices": [
+      "清酒",
+      "焼酎",
+      "合成酒",
+      "リキュール"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "酒税法では、清酒は必ず米を使い、「こす」工程が定められています。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の分類",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "洋酒の「チェイサー」に当たる、日本酒の合間に飲む水を何という？",
+    "choices": [
+      "割水",
+      "和らぎ水",
+      "仕込み水",
+      "迎え水"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "和らぎ水は、日本酒を飲みながら飲む水で、酔いを和らげる水の意味です。",
+    "difficulty": "Easy",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 和らぎ水のすすめ",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/yawaragi-mizu/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "鍋に日本酒を入れると、どうなると紹介されている？",
+    "choices": [
+      "必ず辛口になる",
+      "必ず色が付く",
+      "味が格段にあがる",
+      "味が全くなくなる"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "鍋と日本酒は、秋から冬の風物詩で、飲むだけでなく、鍋に入れることで味も上がるとされます。",
+    "difficulty": "Medium",
+    "category": "pairing",
+    "sourceTitle": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "sourceURL": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒が、ワインやビールと同じ仲間とされる分類は？",
+    "choices": [
+      "蒸留酒",
+      "混成酒",
+      "合成酒",
+      "醸造酒"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "醸造酒は、原料を酵母によりアルコール発酵させて造られる酒です。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒造りに欠かせない微生物は、こうじ菌と何？",
+    "choices": [
+      "酵母",
+      "納豆菌",
+      "大腸菌",
+      "ヨーグルト菌"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "こうじ菌が糖を作り、酵母が糖をアルコールと二酸化炭素に変えます。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "生酒を、保存するときの注意として、表示されるのは？",
+    "choices": [
+      "使用した水の量",
+      "保存や飲用上の注意事項",
+      "蔵人の人数",
+      "酵母の産地"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "製成後に加熱処理をしないで出荷する清酒には、保存または飲用上の注意事項を記載します。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "日本酒の容器に必ず表示される事項の一つは？",
+    "choices": [
+      "蔵人の人数",
+      "精米した日の天気",
+      "内容量",
+      "杜氏の出身地"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "製造者名、製造場の所在地、内容量、「清酒」の表示、アルコール分などが必ず表示されます。",
+    "difficulty": "Easy",
+    "category": "historyLabel",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "特定名称の清酒を表示するとき、あわせて表示するのは？",
+    "choices": [
+      "杜氏の名前",
+      "酵母の番号",
+      "水の硬度",
+      "精米歩合"
+    ],
+    "correctAnswerIndex": 3,
+    "trivia": "原材料名の近くに、精米歩合を併記します。",
+    "difficulty": "Easy",
+    "category": "grade",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「一こうじ、二酛、三造り」で、2番目に挙げられるのは？",
+    "choices": [
+      "酛（酒母）",
+      "こうじ",
+      "造り",
+      "水"
+    ],
+    "correctAnswerIndex": 0,
+    "trivia": "日本酒造りで、こうじ造り、酛（酒母）造り、仕込み（造り）の順に重要とされる言葉です。",
+    "difficulty": "Easy",
+    "category": "brewing",
+    "sourceTitle": "日本酒造組合中央会 — 日本酒の製造工程",
+    "sourceURL": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "米の中心にある、白くうるんだ部分は？",
+    "choices": [
+      "胚芽",
+      "心白",
+      "糠",
+      "外皮"
+    ],
+    "correctAnswerIndex": 1,
+    "trivia": "心白は、デンプン粒が粗く、こうじ菌が入りやすい部分です。大きいとこうじ造りに役立ちます。",
+    "difficulty": "Easy",
+    "category": "rice",
+    "sourceTitle": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  {
+    "question": "「原酒」と表示できる清酒で、アルコール分を整えるための加水は、どこまでなら差し支えない？",
+    "choices": [
+      "10％未満の範囲",
+      "50％未満の範囲",
+      "アルコール分1％未満の範囲",
+      "どんな量でも"
+    ],
+    "correctAnswerIndex": 2,
+    "trivia": "仕込みごとに少しずつ異なるアルコール分を整えるための、1％未満の加水は差し支えないとされています。",
+    "difficulty": "Hard",
+    "category": "taste",
+    "sourceTitle": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "sourceURL": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  }
+]

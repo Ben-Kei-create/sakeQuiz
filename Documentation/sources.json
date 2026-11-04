@@ -1,0 +1,77 @@
+{
+  "hyoji": {
+    "title": "国税庁 — 「清酒の製法品質表示基準」の概要",
+    "url": "https://www.nta.go.jp/taxes/sake/hyoji/seishu/gaiyo/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  "kokuji": {
+    "title": "国税庁 — 清酒の製法品質表示基準を定める件（国税庁告示第8号）",
+    "url": "https://www.nta.go.jp/law/kokuji/891122/02.htm",
+    "checkedOn": "2026-11-03"
+  },
+  "history": {
+    "title": "国税庁 — 日本酒の歴史（造り・こうじ・酵母・酒米・酒造用水）",
+    "url": "https://www.nta.go.jp/taxes/sake/koujikin/pdf/0021012-102_03.pdf",
+    "checkedOn": "2026-11-03"
+  },
+  "gi": {
+    "title": "国税庁 — 酒類の地理的表示（GI）一覧",
+    "url": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_drink": {
+    "title": "日本酒造組合中央会 — 日本酒のおいしい飲み方",
+    "url": "https://japansake.or.jp/sake/enjoy-sake/how-to-drink-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_flavor": {
+    "title": "日本酒造組合中央会 — 日本酒の味と香り",
+    "url": "https://japansake.or.jp/sake/enjoy-sake/flavor-and-aroma-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_cups": {
+    "title": "日本酒造組合中央会 — 酒器で楽しむ日本酒",
+    "url": "https://japansake.or.jp/sake/enjoy-sake/sake-cups/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_season": {
+    "title": "日本酒造組合中央会 — 四季折々の楽しみ方",
+    "url": "https://japansake.or.jp/sake/enjoy-sake/season-to-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_char": {
+    "title": "日本酒造組合中央会 — 日本酒の特徴",
+    "url": "https://japansake.or.jp/sake/about-sake/characteristics-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_yawaragi": {
+    "title": "日本酒造組合中央会 — 和らぎ水のすすめ",
+    "url": "https://japansake.or.jp/sake/about-sake/yawaragi-mizu/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_class": {
+    "title": "日本酒造組合中央会 — 日本酒の分類",
+    "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_culture": {
+    "title": "日本酒造組合中央会 — 日本酒と文化",
+    "url": "https://japansake.or.jp/sake/about-sake/sake-culture/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_brew": {
+    "title": "日本酒造組合中央会 — 日本酒の製造工程",
+    "url": "https://japansake.or.jp/sake/about-sake/sake-brewing-processes/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_gi": {
+    "title": "日本酒造組合中央会 — 日本酒の地理的表示（GI）",
+    "url": "https://japansake.or.jp/sake/about-sake/gi/",
+    "checkedOn": "2026-11-03"
+  },
+  "jss_history": {
+    "title": "日本酒造組合中央会 — 日本酒の歴史",
+    "url": "https://japansake.or.jp/sake/about-sake/history-of-sake/",
+    "checkedOn": "2026-11-03"
+  }
+}

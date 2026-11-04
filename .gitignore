@@ -1,0 +1,10 @@
+.DS_Store
+.build*/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcresult/
+# 審査連絡先など個人情報を含む申請資料はGitに入れない
+Submission/metadata-draft.json
+Submission/private/
+__pycache__/
