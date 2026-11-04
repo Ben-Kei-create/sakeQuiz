@@ -2,6 +2,7 @@ import SwiftUI
 
 struct RootView: View {
     @State private var model = AppModel()
+    @State private var showLaunch = LaunchFlipbook.shouldShow()
     @Environment(\.scenePhase) private var scenePhase
     @Environment(ReminderCenter.self) private var reminder
 
@@ -13,6 +14,12 @@ struct RootView: View {
                 MainTabs(library: library)
                     .environment(model)
                     .environment(model.store)
+            }
+        }
+        .overlay {
+            if showLaunch {
+                LaunchFlipbook { withAnimation(.easeOut(duration: 0.2)) { showLaunch = false } }
+                    .transition(.opacity)
             }
         }
         .onChange(of: scenePhase) { _, phase in

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0BAD986DA42DAF9FF2074660 /* ProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098A4846266C2D9A34BFD9A0 /* ProgressStore.swift */; };
 		0BB89F825DB84F1791B23F96 /* RubyAnnotatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65543248657EA87A0325773A /* RubyAnnotatorTests.swift */; };
+		0BDE7B407478779AB942CB05 /* LaunchFlipbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1135AF8A58BE5EA89B696D94 /* LaunchFlipbook.swift */; };
 		1C0485C074AEC38F8C76ECC7 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = E679D107168910323331F46A /* GoogleUserMessagingPlatform */; };
 		1D76EAFEE935A9980EE0FCEB /* ContentLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC19837F61F42C02A4B4C61 /* ContentLibrary.swift */; };
 		1F0B8C38136809885FE53D86 /* ShipporiMincho-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 118DFFC97F1D8E40F52A3B82 /* ShipporiMincho-Bold.ttf */; };
@@ -34,6 +35,7 @@
 		9D80893F7DB397FF1C11728A /* AdConsent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7DA1DD97E305142BF24A3B /* AdConsent.swift */; };
 		A7C501785ADEACDEBBC58D57 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CAE253C1C55E538DBF0800 /* Theme.swift */; };
 		AA2848CA43E678249D701794 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94F5C0AD83772E138AD2E9 /* LessonView.swift */; };
+		ADDB345E059E0778F8733AD7 /* LaunchFlipbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE081848B318B3D1C6A2E966 /* LaunchFlipbookTests.swift */; };
 		B0CCA3B3BFFD1FEAEE249A7E /* UnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F4B4EF6A21452F11ED8352 /* UnavailableView.swift */; };
 		B36AFADDD5CCB0310CB09FF7 /* QuestionFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95FDD9D9DA1997021FFD94C /* QuestionFlowView.swift */; };
 		BF8BA7945A22362D1A27139E /* seals.json in Resources */ = {isa = PBXBuildFile; fileRef = E4519C54DE88E85F4EB87068 /* seals.json */; };
@@ -76,6 +78,7 @@
 /* Begin PBXFileReference section */
 		098A4846266C2D9A34BFD9A0 /* ProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStore.swift; sourceTree = "<group>"; };
 		1042EC74AAD604279BE58D3E /* RubyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubyText.swift; sourceTree = "<group>"; };
+		1135AF8A58BE5EA89B696D94 /* LaunchFlipbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlipbook.swift; sourceTree = "<group>"; };
 		118DFFC97F1D8E40F52A3B82 /* ShipporiMincho-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShipporiMincho-Bold.ttf"; sourceTree = "<group>"; };
 		126317DE64280CBD2ED7CE54 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		170E408DC33007801E3541F4 /* QuizQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestion.swift; sourceTree = "<group>"; };
@@ -114,6 +117,7 @@
 		BE462E53465FB7D9ECE3FF18 /* ReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTests.swift; sourceTree = "<group>"; };
 		BE4A43C71BC2336525A7D708 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		C195471FAC60DC26A90A4234 /* ProgressStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStoreTests.swift; sourceTree = "<group>"; };
+		CE081848B318B3D1C6A2E966 /* LaunchFlipbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchFlipbookTests.swift; sourceTree = "<group>"; };
 		CF7DA1DD97E305142BF24A3B /* AdConsent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConsent.swift; sourceTree = "<group>"; };
 		D8EFD40485B0FA1FEDDAE88A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E4519C54DE88E85F4EB87068 /* seals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = seals.json; sourceTree = "<group>"; };
@@ -218,6 +222,7 @@
 				3D2425B76C340C73B864316F /* AdConsentTests.swift */,
 				66AA35680D14DE02D1448970 /* ContentLibraryTests.swift */,
 				7DB0493B5CA3105C478334DB /* FontTests.swift */,
+				CE081848B318B3D1C6A2E966 /* LaunchFlipbookTests.swift */,
 				C195471FAC60DC26A90A4234 /* ProgressStoreTests.swift */,
 				BE462E53465FB7D9ECE3FF18 /* ReminderTests.swift */,
 				65543248657EA87A0325773A /* RubyAnnotatorTests.swift */,
@@ -251,6 +256,7 @@
 			children = (
 				8A880C37D437AF7C96353B17 /* BannerSlot.swift */,
 				75751073BB7EE3D39751667B /* CalendarView.swift */,
+				1135AF8A58BE5EA89B696D94 /* LaunchFlipbook.swift */,
 				BA94F5C0AD83772E138AD2E9 /* LessonView.swift */,
 				B95FDD9D9DA1997021FFD94C /* QuestionFlowView.swift */,
 				3505996219B06A0FA6CFCB7E /* ReviewView.swift */,
@@ -431,6 +437,7 @@
 				7CF53F51C4A378DA263190CF /* AdConsentTests.swift in Sources */,
 				CFB38EB79C89CCABAAE6A883 /* ContentLibraryTests.swift in Sources */,
 				59DE62ECA402C119C7C929D7 /* FontTests.swift in Sources */,
+				ADDB345E059E0778F8733AD7 /* LaunchFlipbookTests.swift in Sources */,
 				6D6523DF72E6E9CD9F7B582E /* ProgressStoreTests.swift in Sources */,
 				622086BE4BEDFB997DEFEAF3 /* ReminderTests.swift in Sources */,
 				0BB89F825DB84F1791B23F96 /* RubyAnnotatorTests.swift in Sources */,
@@ -449,6 +456,7 @@
 				1D76EAFEE935A9980EE0FCEB /* ContentLibrary.swift in Sources */,
 				6F78F380914240D6CEFA7FEB /* DayKey.swift in Sources */,
 				9BE8D0EBF239C1B9E314B26A /* Feedback.swift in Sources */,
+				0BDE7B407478779AB942CB05 /* LaunchFlipbook.swift in Sources */,
 				F5F72A5A76CEA4E87BBB6A2B /* Lesson.swift in Sources */,
 				AA2848CA43E678249D701794 /* LessonView.swift in Sources */,
 				9A309F1A8DB1885C9C4B5D9C /* NihonshuQuizApp.swift in Sources */,
