@@ -15,7 +15,7 @@ struct ReviewView: View {
                 .font(.mincho(34, bold: true, relativeTo: .largeTitle))
                 .accessibilityAddTraits(.isHeader)
             if due.isEmpty {
-                VStack(alignment: .leading, spacing: Theme.spacing.m) {
+                VStack(alignment: .center, spacing: Theme.spacing.m) {
                     if Illustration.exists("illust_sugidama") {
                         Illustration(name: "illust_sugidama", height: 140)
                     } else {
@@ -24,10 +24,13 @@ struct ReviewView: View {
                     Text(model.store.state.reviews.isEmpty ? "間違えた問いは、まだない。" : "本日の復習は、なし。")
                         .font(.mincho(17, bold: true, relativeTo: .headline))
                 }
+                .frame(maxWidth: .infinity)
                 .accessibilityElement(children: .combine)
                 .accessibilityIdentifier("review_empty")
                 Text("間違えた問いは、翌日、3日後、7日後に、もう一度出る。")
                     .font(.mincho(15, relativeTo: .subheadline))
+                    .multilineTextAlignment(.center)
+                    .frame(maxWidth: .infinity)
                     .foregroundStyle(Theme.sumi.opacity(0.85))
             } else {
                 Text("\(due.count)問、復習する。")
